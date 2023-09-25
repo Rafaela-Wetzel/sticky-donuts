@@ -1,0 +1,19 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body {
+    background-color: #C57AFA;
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 2em;
+}
