@@ -6,6 +6,13 @@ body {
     background-color: #C57AFA;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 1.2rem;
+    margin: 0;
+}
+
+header {
+    background-color: #ab4eed;
+    width: 100%;
+    text-align: center;
 }
 
 h1,
@@ -16,9 +23,6 @@ h3 {
 }
 
 h1 {
-    font-size: 3.5rem;
-}
-
-.no-bulletpoints {
-    list-style: none;
+    font-size: 4.5rem;
+    margin: 0;
 }
