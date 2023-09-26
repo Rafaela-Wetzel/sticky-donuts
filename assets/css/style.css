@@ -5,15 +5,15 @@
 body {
     background-color: #C57AFA;
     font-family: 'DM Serif Display', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 h1 {
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 2.5em;
+    font-size: 3.5rem;
 }
 
 h2 {
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
 }
