@@ -6,7 +6,8 @@ body {
     background-color: #C57AFA;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 1.2rem;
-    margin: 0;
+    margin: 0 0 10px;
+    text-align: justify;
 }
 
 header {
@@ -27,7 +28,11 @@ a:hover {
 }
 
 main {
-    margin-top: 170px;
+    margin-top: 190px;
+}
+
+.padding-20 {
+    padding: 0 20px 0;
 }
 
 h1,
@@ -43,9 +48,14 @@ h1 {
 }
 
 h2 {
-    scroll-margin-top: 160px;
+    scroll-margin-top: 190px;
 }
 
-.padding-20 {
-    padding: 0 20px 0;
+table {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+.donut-credits {
+    font-size: 0.8rem;
 }
