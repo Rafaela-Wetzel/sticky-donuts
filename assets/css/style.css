@@ -13,6 +13,12 @@ header {
     background-color: #ab4eed;
     width: 100%;
     text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    margin-top: 170px;
 }
 
 h1,
