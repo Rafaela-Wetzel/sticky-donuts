@@ -8,16 +8,17 @@ body {
     font-size: 1.2rem;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Abril Fatface', sans-serif;
+    background-color: #ab4eed;
+}
+
+h1 {
     font-size: 3.5rem;
 }
 
 .no-bulletpoints {
     list-style: none;
-}
-
-h2 {
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 2rem;
 }
