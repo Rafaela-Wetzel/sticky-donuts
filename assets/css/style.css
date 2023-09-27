@@ -64,10 +64,18 @@ table {
 
   textarea {
     text-align: center;
+    margin: 7px 0;
  }
 
 .input-field-style {
-    border: medium solid #000;
+    border: medium double #000;
+}
+
+.button-style {
+    background-color: #ab4eed; 
+    border: thick outset #552676;
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 0.9rem;
 }
   
 .donut-credits {
