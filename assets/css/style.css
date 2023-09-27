@@ -16,12 +16,13 @@ header {
     text-align: center;
     position: fixed;
     top: 0;
+    border-bottom: thick solid #000;
 }
 
 nav > a {
     color: inherit;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 a:hover {
@@ -48,7 +49,7 @@ h3 {
 }
 
 h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     margin: 0;
 }
 
