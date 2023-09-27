@@ -77,6 +77,12 @@ table {
     font-size: 0.9rem;
 }
   
-#donut-credits {
-    font-size: 0.8rem;
+#donut-credits > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+#donut-credits > a:hover {
+    color: #fff;
 }
