@@ -62,6 +62,10 @@ table {
     vertical-align: middle;
   }
 
+  td {
+    padding: 0 15px;
+  }
+
   textarea {
     text-align: center;
     margin: 7px 0;
