@@ -61,6 +61,14 @@ table {
     text-align: center;
     vertical-align: middle;
   }
+
+  textarea {
+    text-align: center;
+ }
+
+.input-field-style {
+    border: medium solid #000;
+}
   
 .donut-credits {
     font-size: 0.8rem;
