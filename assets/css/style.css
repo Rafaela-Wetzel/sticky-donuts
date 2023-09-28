@@ -222,24 +222,35 @@ textarea {
         width: 100%;
         height: auto;
         max-width: 600px;
+        border: medium solid #000;
     }
 
     #four-donuts {
         width: 100%;
         height: auto;
         max-width: 300px;
+        border: medium solid #000;
     }
 
     #hazelnut-donut {
-
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border: medium solid #000;
     }
 
     #lotus-donut {
-
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border: medium solid #000;
     }
 
     #pistachio-donut {
-
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border: medium solid #000;
     }
 
 /* Footer styles */
