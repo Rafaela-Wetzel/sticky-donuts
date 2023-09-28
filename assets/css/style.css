@@ -188,7 +188,15 @@ textarea {
         font-size: 1.4rem;
     }
 
-/* Footer */
+/* Image styles */
+
+    #three-donuts {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+
+/* Footer styles */
 
     #google-maps-style {
         width: 400px;
