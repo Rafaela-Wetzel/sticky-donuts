@@ -64,6 +64,10 @@ h3 {
     font-size: 1.1rem;
 }
 
+#align-right {
+    text-align: right;
+}
+
 /* Footer styles */
 
 .align-center {
