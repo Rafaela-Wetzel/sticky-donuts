@@ -172,6 +172,10 @@ textarea {
         font-size: 2rem
     }
 
+    h3 {
+        font-size: 1.4rem;
+    }
+
 /* Footer */
 
     #google-maps-style {
