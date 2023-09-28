@@ -6,7 +6,7 @@
 body {
     background-color: #C57AFA;
     font-family: 'DM Serif Display', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0 0 10px;
     text-align: justify;
 }
@@ -54,10 +54,15 @@ h3 {
     background-color: #ab4eed;
 }
 
-/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
+/* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
 h2 {
     scroll-margin-top: 120px;
+    font-size: 1.3rem;
 } 
+
+h3 {
+    font-size: 1.1rem;
+}
 
 /* Footer styles */
 
@@ -121,6 +126,10 @@ textarea {
 
 @media screen and (min-width: 1200px) {
 
+    body {
+        font-size: 1.2rem;
+    }
+
 /* Pushes content down so it is not covered by header */
     main {
         margin-top: 190px;
@@ -137,5 +146,6 @@ textarea {
 /* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     h2 {
         scroll-margin-top: 190px;
+        font-size: 2rem
     }
 }
