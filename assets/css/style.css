@@ -104,7 +104,7 @@ textarea {
 /* Donut icon credits */
 
 #donut-credits>a {
-    font-size: 15px;
+    font-size: 0.8rem;
     text-decoration: none;
     color: #000;
 }
@@ -173,5 +173,10 @@ textarea {
     #google-maps-style {
         width: 400px;
         height: 300px;
+    }
+
+/* Donut icon credits */
+    #donut-credits>a {
+         font-size: 0.9rem;
     }
 }
