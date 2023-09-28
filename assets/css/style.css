@@ -22,14 +22,14 @@ header {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     margin: 0;
 }
 
 nav>a {
     color: inherit;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a:hover {
@@ -38,10 +38,10 @@ a:hover {
 
 /* Main styles */
 
-/* Pushes content down so it is not covered by header 
+/* Pushes content down so it is not covered by header */
 main {
-    margin-top: ?px;
-} */
+    margin-top: 120px;
+}
 
 .margin-20 {
     margin: 0 20px;
@@ -54,10 +54,10 @@ h3 {
     background-color: #ab4eed;
 }
 
-/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 
+/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
 h2 {
-    scroll-margin-top: ? px;
-} */
+    scroll-margin-top: 120px;
+} 
 
 /* Footer styles */
 
@@ -124,6 +124,14 @@ textarea {
 /* Pushes content down so it is not covered by header */
     main {
         margin-top: 190px;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    nav>a {
+        font-size: 1.5rem;
     }
 
 /* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
