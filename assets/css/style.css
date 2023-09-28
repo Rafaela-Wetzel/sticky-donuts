@@ -66,6 +66,10 @@ h3 {
 
 /* Footer styles */
 
+.align-center {
+    text-align: center;
+}
+
 /* Address */
 
 #google-maps-style {
