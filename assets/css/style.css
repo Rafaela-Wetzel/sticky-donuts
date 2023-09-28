@@ -68,6 +68,13 @@ h3 {
     text-align: right;
 }
 
+/* Image styles */
+
+#three-donuts {
+    max-width: 50%;
+    max-height: 50%;
+}
+
 /* Footer styles */
 
 .align-center {
