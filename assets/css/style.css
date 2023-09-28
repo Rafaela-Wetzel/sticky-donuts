@@ -77,6 +77,13 @@ h3 {
     border: medium solid #000;
 }
 
+#four-donuts {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border: medium solid #000;
+}
+
 /* Footer styles */
 
 .align-center {
@@ -194,6 +201,12 @@ textarea {
         width: 100%;
         height: auto;
         max-width: 600px;
+    }
+
+    #four-donuts {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 
 /* Footer styles */
