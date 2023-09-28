@@ -38,10 +38,10 @@ a:hover {
 
 /* Main styles */
 
-/* Pushes content down so it is not covered by header */
+/* Pushes content down so it is not covered by header 
 main {
-    margin-top: 190px;
-}
+    margin-top: ?px;
+} */
 
 .margin-20 {
     margin: 0 20px;
@@ -54,19 +54,19 @@ h3 {
     background-color: #ab4eed;
 }
 
-/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
+/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 
 h2 {
-    scroll-margin-top: 190px;
-}
+    scroll-margin-top: ? px;
+} */
 
 /* Footer styles */
 
 /* Address */
 
 #google-maps-style {
-    border: medium solid #000; 
+    border: medium solid #000;
     margin-left: 20px;
-    width: 400px; 
+    width: 400px;
     height: 300px;
 }
 
@@ -108,22 +108,26 @@ textarea {
     color: #fff;
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+/* Media queries */
 
-}
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {}
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {}
 
-}
-    
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {}
 
+@media screen and (min-width: 1200px) {
+
+/* Pushes content down so it is not covered by header */
+    main {
+        margin-top: 190px;
+    }
+
+/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
+    h2 {
+        scroll-margin-top: 190px;
+    }
 }
-
-@media screen and (min-width: 1200px) {    
-
-}
-    
