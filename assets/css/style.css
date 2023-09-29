@@ -166,14 +166,24 @@ textarea {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
+    /* General styles */
+    body {
+        font-size: 1.2rem;
+    }
+
     /* Header & nav styles */
     h1 {
         font-size: 2.8rem;
     }
 
     /* Main styles */
+    main {
+        margin-top: 125px;
+    }
+
     h2 {
-        font-size: 1.8rem
+        font-size: 1.8rem;
+        scroll-margin-top: 125px;
     }
 
     h3 {
@@ -215,12 +225,21 @@ textarea {
 
     /* Header & nav styles */
     h1 {
-        font-size: 2.8rem;
+        font-size: 3rem;
+    }
+
+    nav>a {
+        font-size: 1.5rem;
     }
 
     /* Main styles */
+    main {
+        margin-top: 145px;
+    }
+
     h2 {
-        font-size: 1.9rem
+        font-size: 1.7rem;
+        scroll-margin-top: 145px;
     }
 
     h3 {
@@ -252,9 +271,9 @@ textarea {
 
     /* General styles */
     body {
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
-    
+
     /* Header & nav styles */
     h1 {
         font-size: 3.3rem;
