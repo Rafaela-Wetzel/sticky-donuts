@@ -176,6 +176,10 @@ textarea {
         font-size: 1.5rem;
     }
 
+    #three-donuts {
+        max-width: 650px;
+    }
+
     #hazelnut-donut {
         width: 100%;
         height: auto;
@@ -209,6 +213,12 @@ textarea {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* General styles */
+
+    body {
+        font-size: 1.2rem;
+    }
+
     /* Header & nav styles */
     h1 {
         font-size: 2.8rem;
@@ -223,6 +233,24 @@ textarea {
         font-size: 1.6rem;
     }
 
+    #three-donuts {
+        max-width: 500px;
+    }
+
+    #hazelnut-donut {
+        max-width: 300px;
+        margin: 0 20px;
+    }
+
+    #lotus-donut {
+        max-width: 300px;
+        margin: 0 20px;
+    }
+
+    #pistachio-donut {
+        max-width: 300px;
+        margin: 0 20px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -255,6 +283,27 @@ textarea {
 
     h3 {
         font-size: 1.7rem;
+    }
+
+    #three-donuts {
+        max-width: 600px;
+    }
+
+    #hazelnut-donut {
+        max-width: 250px;
+    }
+
+    #lotus-donut {
+        max-width: 250px;
+    }
+
+    #pistachio-donut {
+        max-width: 250px;
+    }
+
+    #four-donuts {
+        max-width: 300px;
+        margin: 0 50px;
     }
 
 }
@@ -294,38 +343,26 @@ textarea {
 
     /* Image styles */
     #three-donuts {
-        width: 100%;
-        height: auto;
         max-width: 600px;
-        border: medium solid #000;
-    }
-
-    #four-donuts {
-        width: 100%;
-        height: auto;
-        max-width: 300px;
-        border: medium solid #000;
     }
 
     #hazelnut-donut {
-        width: 100%;
-        height: auto;
         max-width: 300px;
-        border: medium solid #000;
     }
 
     #lotus-donut {
-        width: 100%;
-        height: auto;
         max-width: 300px;
-        border: medium solid #000;
+        margin: 0 50px;
     }
 
     #pistachio-donut {
-        width: 100%;
-        height: auto;
         max-width: 300px;
-        border: medium solid #000;
+        margin: 0 50px;
+    }
+
+    #four-donuts {
+        max-width: 300px;
+        margin: 0 50px;
     }
 
     /* Footer styles */
