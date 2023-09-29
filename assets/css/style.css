@@ -164,7 +164,20 @@ textarea {
 
 /* General styles */
 /* Header & nav styles */
+
+h1 {
+    font-size: 2.8rem;
+}
+
 /* Main styles */
+
+h2 {
+    font-size: 1.8rem
+}
+
+h3 {
+    font-size: 1.5rem;
+}
 
 #hazelnut-donut {
     width: 100%;
