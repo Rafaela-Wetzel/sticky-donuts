@@ -18,7 +18,7 @@ header {
     text-align: center;
     position: fixed;
     top: 0;
-    border-bottom: medium solid #000;   
+    border-bottom: medium solid #000;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h3 {
 h2 {
     scroll-margin-top: 120px;
     font-size: 1.3rem;
-} 
+}
 
 h3 {
     font-size: 1.1rem;
@@ -160,117 +160,113 @@ textarea {
 /* Media queries */
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
 
-/* General styles */
-/* Header & nav styles */
+    /* Header & nav styles */
+    h1 {
+        font-size: 2.8rem;
+    }
 
-h1 {
-    font-size: 2.8rem;
+    /* Main styles */
+    h2 {
+        font-size: 1.8rem
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #hazelnut-donut {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+        border: medium solid #000;
+        margin: 0 10px;
+    }
+
+    #lotus-donut {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+        border: medium solid #000;
+        margin: 0 10px;
+    }
+
+    #pistachio-donut {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+        border: medium solid #000;
+        margin: 0 10px;
+    }
+
+    .donut-align-center {
+        text-align: center;
+    }
+
 }
-
-/* Main styles */
-
-h2 {
-    font-size: 1.8rem
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-#hazelnut-donut {
-    width: 100%;
-    height: auto;
-    max-width: 150px;
-    border: medium solid #000;
-    margin: 0 10px;
-}
-
-#lotus-donut {
-    width: 100%;
-    height: auto;
-    max-width: 150px;
-    border: medium solid #000;
-    margin: 0 10px;
-}
-
-#pistachio-donut {
-    width: 100%;
-    height: auto;
-    max-width: 150px;
-    border: medium solid #000;
-    margin: 0 10px;
-}
-
-.donut-align-center {
-    text-align: center;
-}
-
-/* Footer */
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
 
-/* General styles */
-/* Header & nav styles */
+    /* Header & nav styles */
+    h1 {
+        font-size: 2.8rem;
+    }
 
-h1 {
-    font-size: 2.8rem;
+    /* Main styles */
+    h2 {
+        font-size: 1.6rem
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
 }
-
-/* Main styles */
-
-h2 {
-    font-size: 1.6rem
-}
-
-h3 {
-    font-size: 1.3rem;
-}
-
-/* Footer */
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-/* Header & nav styles */
-h1 {
-    font-size: 3.3rem;
-    margin: 0;
-}
+    /* General styles */
+    body {
+        font-size: 1.2rem;
+    }
 
-nav>a {
-    font-size: 1.5rem;
-}
+    /* Header & nav styles */
+    h1 {
+        font-size: 3.3rem;
+    }
 
-/* Main styles */
-main {
-    margin-top: 150px;
-}
+    nav>a {
+        font-size: 1.5rem;
+    }
 
-/* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
-h2 {
-    scroll-margin-top: 150px;
-    font-size: 1.7rem;
-} 
+    /* Main styles */
+    main {
+        margin-top: 150px;
+    }
 
-h3 {
-    font-size: 1.4rem;
-}
+    /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
+    h2 {
+        scroll-margin-top: 150px;
+        font-size: 1.7rem;
+    }
 
-/* Footer styles */
+    h3 {
+        font-size: 1.4rem;
+    }
 
 }
 
 @media screen and (min-width: 1200px) {
 
-/* General styles */
+    /* General styles */
     body {
         font-size: 1.2rem;
     }
 
-/* Header & nav styles */
+    /* Header & nav styles */
     h1 {
         font-size: 4.5rem;
     }
@@ -279,14 +275,14 @@ h3 {
         font-size: 1.5rem;
     }
 
-/* Main styles */
+    /* Main styles */
 
-/* Pushes content down so it is not covered by header */
+    /* Pushes content down so it is not covered by header */
     main {
         margin-top: 190px;
     }
 
-/* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
+    /* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     h2 {
         scroll-margin-top: 190px;
         font-size: 2rem
@@ -296,8 +292,7 @@ h3 {
         font-size: 1.4rem;
     }
 
-/* Image styles */
-
+    /* Image styles */
     #three-donuts {
         width: 100%;
         height: auto;
@@ -333,15 +328,15 @@ h3 {
         border: medium solid #000;
     }
 
-/* Footer styles */
+    /* Footer styles */
 
     #google-maps-style {
         width: 400px;
         height: 300px;
     }
 
-/* Donut icon credits */
+    /* Donut icon credits */
     #donut-credits>a {
-         font-size: 0.9rem;
+        font-size: 0.9rem;
     }
 }
