@@ -214,7 +214,21 @@ h3 {
 
 /* General styles */
 /* Header & nav styles */
+
+h1 {
+    font-size: 2.8rem;
+}
+
 /* Main styles */
+
+h2 {
+    font-size: 1.6rem
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
 /* Footer */
 
 /* Large devices (laptops and desktops, 992px and up) */
