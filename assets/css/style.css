@@ -216,11 +216,11 @@ textarea {
 
     /* Main styles */
     h2 {
-        font-size: 1.6rem
+        font-size: 1.9rem
     }
 
     h3 {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
 }
@@ -230,9 +230,9 @@ textarea {
 
     /* General styles */
     body {
-        font-size: 1.2rem;
+    font-size: 1.2rem;
     }
-
+    
     /* Header & nav styles */
     h1 {
         font-size: 3.3rem;
@@ -250,11 +250,11 @@ textarea {
     /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     h2 {
         scroll-margin-top: 150px;
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 
 }
