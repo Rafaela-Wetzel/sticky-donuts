@@ -70,6 +70,10 @@ h3 {
 
 /* Image styles */
 
+.donut-align-center {
+    text-align: center;
+}
+
 #three-donuts {
     width: 100%;
     height: auto;
@@ -177,37 +181,27 @@ textarea {
     }
 
     #three-donuts {
-        max-width: 650px;
+        max-width: 350px;
     }
 
     #hazelnut-donut {
-        width: 100%;
-        height: auto;
         max-width: 150px;
-        border: medium solid #000;
         margin: 0 10px;
     }
 
     #lotus-donut {
-        width: 100%;
-        height: auto;
         max-width: 150px;
-        border: medium solid #000;
         margin: 0 10px;
     }
 
     #pistachio-donut {
-        width: 100%;
-        height: auto;
         max-width: 150px;
-        border: medium solid #000;
         margin: 0 10px;
     }
 
     .donut-align-center {
         text-align: center;
     }
-
 }
 
 /* Media query: tablets and larger (768px and up) */
