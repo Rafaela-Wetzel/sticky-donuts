@@ -193,17 +193,16 @@ textarea {
 
     #hazelnut-donut {
         max-width: 150px;
-        margin: 0 10px;
+        margin-right: 10px;
     }
 
     #lotus-donut {
         max-width: 150px;
-        margin: 0 10px;
+        margin-right: 10px;
     }
 
     #pistachio-donut {
         max-width: 150px;
-        margin: 0 10px;
     }
 
     .donut-align-center {
