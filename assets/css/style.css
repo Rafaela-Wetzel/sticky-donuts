@@ -7,7 +7,6 @@
 body {
     background-color: #C57AFA;
     font-family: 'DM Serif Display', sans-serif;
-    font-size: 1.1rem;
     margin: 0 0 10px;
     text-align: justify;
 }
@@ -46,6 +45,10 @@ a:hover {
 
 .margin-20 {
     margin: 0 20px;
+}
+
+.font-size {
+    font-size: 1.2rem;
 }
 
 .heading-style {
@@ -131,11 +134,6 @@ textarea {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    /* General styles */
-    body {
-        font-size: 1.2rem;
-    }
-
     /* Main styles */
     .margin-top {
         margin-top: 135px;
@@ -165,12 +163,6 @@ textarea {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* General styles */
-
-    body {
-        font-size: 1.2rem;
-    }
-
     /* Header & nav styles */
     nav > a {
         font-size: 1.5rem;
@@ -197,11 +189,6 @@ textarea {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-    /* General styles */
-    body {
-        font-size: 1.2rem;
-    }
 
     /* Header & nav styles */
     nav > a {
@@ -234,11 +221,6 @@ textarea {
 }
 
 @media screen and (min-width: 1200px) {
-
-    /* General styles */
-    body {
-        font-size: 1.2rem;
-    }
 
     /* Header & nav styles */
     nav > a {
