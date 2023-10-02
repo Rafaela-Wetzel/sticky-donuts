@@ -22,9 +22,9 @@ header {
     border-bottom: medium solid #000;
 }
 
-h1 {
-    font-size: 2.5rem;
+.main-heading {
     margin: 0;
+    font-size: 3rem;
 }
 
 nav>a {
@@ -41,30 +41,22 @@ a:hover {
 
 /* Pushes content down so it is not covered by header */
 main {
-    margin-top: 120px;
+    margin-top: 135px;
 }
 
 .margin-20 {
     margin: 0 20px;
 }
 
-h1,
-h2,
-h3 {
+.heading-style {
     font-family: 'Abril Fatface', sans-serif;
     background-color: #ab4eed;
 }
 
 /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
 h2 {
-    scroll-margin-top: 120px;
-    font-size: 1.3rem;
+    scroll-margin-top: 135px;
 }
-
-h3 {
-    font-size: 1.1rem;
-}
-
 
 /* Image styles */
 
@@ -72,35 +64,22 @@ h3 {
     text-align: center;
 }
 
-#three-donuts {
+/*The two following classes have the same properties on purpose so I can target them separately in the media queries*/
+.donut-three-size {
     width: 100%;
     height: auto;
     max-width: 300px;
     border: medium solid #000;
 }
 
-#four-donuts {
+.donut-four-size {
     width: 100%;
     height: auto;
     max-width: 300px;
     border: medium solid #000;
 }
 
-#hazelnut-donut {
-    width: 100%;
-    height: auto;
-    max-width: 150px;
-    border: medium solid #000;
-}
-
-#lotus-donut {
-    width: 100%;
-    height: auto;
-    max-width: 150px;
-    border: medium solid #000;
-}
-
-#pistachio-donut {
+.donut-single-size {
     width: 100%;
     height: auto;
     max-width: 150px;
@@ -145,7 +124,7 @@ textarea {
     border: thick outset #552676;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 0.9rem;
-    }
+}
 
 /* Media queries */
 
@@ -157,35 +136,25 @@ textarea {
         font-size: 1.2rem;
     }
 
-    /* Header & nav styles */
-    h1 {
-        font-size: 2.8rem;
-    }
-
     /* Main styles */
     main {
-        margin-top: 125px;
+        margin-top: 135px;
     }
 
     h2 {
-        font-size: 1.8rem;
-        scroll-margin-top: 125px;
+        scroll-margin-top: 135px;
     }
 
-    h3 {
-        font-size: 1.4rem;
-    }
-
-    #three-donuts {
+    .donut-three-size {
         max-width: 350px;
     }
 
-    #hazelnut-donut {
+    .donut-single-size {
         margin-right: 10px;
     }
 
-    #lotus-donut {
-        margin-right: 10px;
+    .donut-margin {
+        margin-right: 0;
     }
 
     .donut-align-center {
@@ -203,10 +172,6 @@ textarea {
     }
 
     /* Header & nav styles */
-    h1 {
-        font-size: 3rem;
-    }
-
     nav>a {
         font-size: 1.5rem;
     }
@@ -217,29 +182,14 @@ textarea {
     }
 
     h2 {
-        font-size: 1.7rem;
         scroll-margin-top: 145px;
     }
 
-    h3 {
-        font-size: 1.4rem;
-    }
-
-    #three-donuts {
+    .donut-three-size {
         max-width: 500px;
     }
 
-    #hazelnut-donut {
-        max-width: 300px;
-        margin: 0 20px;
-    }
-
-    #lotus-donut {
-        max-width: 300px;
-        margin: 0 20px;
-    }
-
-    #pistachio-donut {
+    .donut-single-size {
         max-width: 300px;
         margin: 0 20px;
     }
@@ -254,10 +204,6 @@ textarea {
     }
 
     /* Header & nav styles */
-    h1 {
-        font-size: 3.3rem;
-    }
-
     nav>a {
         font-size: 1.5rem;
     }
@@ -270,30 +216,17 @@ textarea {
     /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     h2 {
         scroll-margin-top: 150px;
-        font-size: 2rem;
     }
 
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    #three-donuts {
+    .donut-three-size {
         max-width: 600px;
     }
 
-    #hazelnut-donut {
+    .donut-single-size {
         max-width: 250px;
     }
 
-    #lotus-donut {
-        max-width: 250px;
-    }
-
-    #pistachio-donut {
-        max-width: 250px;
-    }
-
-    #four-donuts {
+    .donut-four-size {
         max-width: 300px;
         margin: 0 50px;
     }
@@ -308,10 +241,6 @@ textarea {
     }
 
     /* Header & nav styles */
-    h1 {
-        font-size: 4.5rem;
-    }
-
     nav>a {
         font-size: 1.5rem;
     }
@@ -320,39 +249,29 @@ textarea {
 
     /* Pushes content down so it is not covered by header */
     main {
-        margin-top: 180px;
+        margin-top: 150px;
     }
 
     /* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     h2 {
-        scroll-margin-top: 180px;
-        font-size: 2rem
-    }
-
-    h3 {
-        font-size: 1.5rem;
+        scroll-margin-top: 150px;
     }
 
     /* Image styles */
-    #three-donuts {
+    .donut-three-size {
         max-width: 600px;
     }
 
-    #hazelnut-donut {
+    .donut-single-size {
         max-width: 300px;
     }
 
-    #lotus-donut {
-        max-width: 300px;
-        margin: 0 50px;
-    }
-
-    #pistachio-donut {
+    .donut-margin {
         max-width: 300px;
         margin: 0 50px;
     }
 
-    #four-donuts {
+    .donut-four-size {
         max-width: 300px;
         margin: 0 50px;
     }
@@ -362,10 +281,5 @@ textarea {
     #google-maps-style {
         width: 400px;
         height: 300px;
-    }
-
-    /* Donut icon credits */
-    #donut-credits>a {
-        font-size: 0.9rem;
     }
 }
