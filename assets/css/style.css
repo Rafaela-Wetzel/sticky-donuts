@@ -1,5 +1,4 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 /* General styles */
@@ -192,17 +191,11 @@ textarea {
     }
 
     #hazelnut-donut {
-        max-width: 150px;
         margin-right: 10px;
     }
 
     #lotus-donut {
-        max-width: 150px;
         margin-right: 10px;
-    }
-
-    #pistachio-donut {
-        max-width: 150px;
     }
 
     .donut-align-center {
