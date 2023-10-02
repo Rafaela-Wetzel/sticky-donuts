@@ -43,6 +43,11 @@ a:hover {
     margin-top: 135px;
 }
 
+/* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
+h2 {
+    scroll-margin-top: 135px;
+} 
+
 .align-center {
     text-align: center;
 }
@@ -59,16 +64,11 @@ a:hover {
     background-color: #ab4eed;
 }
 
-/* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
-h2 {
-    scroll-margin-top: 135px;
-} 
+.ul-no-bullets {
+    list-style-type: none;
+}
 
 /* Image styles */
-
-.donut-align-center {
-    text-align: center;
-}
 
 /*The two following classes have the same properties on purpose so I can target them separately in the media queries*/
 .donut-three-size {
@@ -92,14 +92,13 @@ h2 {
     border: medium solid #000;
 }
 
-.ul-no-bullets {
-    list-style-type: none;
+.donut-align-center {
+    text-align: center;
 }
 
 /* Footer */
 
 /* Address */
-
 #google-maps-style {
     border: medium solid #000;
     width: 300px;
@@ -248,11 +247,7 @@ textarea {
     }
 
     .donut-single-size {
-        max-width: 300px;
-    }
-
-    .donut-margin {
-        max-width: 300px;
+        max-width: 250px;
         margin: 0 50px;
     }
 
