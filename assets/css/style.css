@@ -1,5 +1,7 @@
 /* Google Fonts Import */
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 /* General styles */
 body {
@@ -143,19 +145,7 @@ textarea {
     border: thick outset #552676;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 0.9rem;
-}
-
-/* Donut icon credits */
-
-#donut-credits>a {
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: #000;
-}
-
-#donut-credits>a:hover {
-    color: #fff;
-}
+    }
 
 /* Media queries */
 
