@@ -98,13 +98,21 @@ h2 {
 
 /* Footer */
 
-/* Address */
-
+/* General styles */
 #footer-flex {
     display: flex;
+    flex-direction: column;
     margin: 10px;
 }
 
+footer h3 {
+    font-family: 'Abril Fatface', sans-serif;
+    color: #552676;
+    font-size: x-large;
+}
+
+
+/* Where to find us */
 #google-maps-style {
     border: medium solid #000;
     width: 300px;
@@ -121,7 +129,7 @@ td {
     padding: 0 15px;
 }
 
-/* Contact form & newsletter */
+/* Contact form */
 textarea {
     margin: 7px 0;
 }
@@ -135,6 +143,12 @@ textarea {
     border: thick outset #552676;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 0.9rem;
+}
+
+/* Footnote */
+
+#footnote-style {
+    text-align: left;
 }
 
 /* Media queries */
