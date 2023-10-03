@@ -99,6 +99,12 @@ h2 {
 /* Footer */
 
 /* Address */
+
+#footer-flex {
+    display: flex;
+    margin: 10px;
+}
+
 #google-maps-style {
     border: medium solid #000;
     width: 300px;
