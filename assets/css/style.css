@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 /* General styles */
+
 body {
     background-color: #C57AFA;
     font-family: 'DM Serif Display', sans-serif;
@@ -12,6 +13,7 @@ body {
 }
 
 /* Header & nav styles */
+
 header {
     background-color: #ab4eed;
     width: 100%;
@@ -51,6 +53,7 @@ h2 {
 .align-center {
     text-align: center;
 }
+
 .margin-20 {
     margin: 0 20px;
 }
@@ -149,7 +152,6 @@ textarea {
 }
 
 /* Footnote */
-
 #footnote-style {
     text-align: center;
     padding-top: 100px;
@@ -173,13 +175,6 @@ textarea {
         max-width: 450px;
     }
 
-    .donut-single-size {
-        margin-right: 10px;
-    }
-
-    .donut-margin {
-        margin-right: 0;
-    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -203,10 +198,6 @@ textarea {
         max-width: 500px;
     }
 
-    .donut-single-size {
-        max-width: 300px;
-        margin: 0 20px;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -222,22 +213,12 @@ textarea {
         margin-top: 150px;
     }
 
-    /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     h2 {
         scroll-margin-top: 150px;
     }
 
     .donut-three-size {
         max-width: 600px;
-    }
-
-    .donut-single-size {
-        max-width: 250px;
-    }
-
-    .donut-four-size {
-        max-width: 300px;
-        margin: 0 50px;
     }
 
     /* Footer styles */
@@ -254,13 +235,10 @@ textarea {
     }
 
     /* Main styles */
-
-    /* Pushes content down so it is not covered by header */
     .margin-top {
         margin-top: 150px;
     }
 
-    /* Secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
     .scroll-margin-top {
         scroll-margin-top: 150px;
     }
@@ -268,16 +246,6 @@ textarea {
     /* Image styles */
     .donut-three-size {
         max-width: 600px;
-    }
-
-    .donut-single-size {
-        max-width: 250px;
-        margin: 0 50px;
-    }
-
-    .donut-four-size {
-        max-width: 300px;
-        margin: 0 50px;
     }
 
     /* Footer styles */
