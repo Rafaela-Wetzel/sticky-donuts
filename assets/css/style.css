@@ -148,7 +148,8 @@ textarea {
 /* Footnote */
 
 #footnote-style {
-    text-align: left;
+    text-align: center;
+    padding-top: 100px;
 }
 
 /* Media queries */
@@ -240,6 +241,10 @@ textarea {
         margin: 0 50px;
     }
 
+    /* Footer styles */
+    #footer-flex {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 1200px) {
