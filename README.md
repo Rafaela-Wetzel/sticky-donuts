@@ -1,12 +1,12 @@
 # Sticky Donuts
 
-Sticky Donuts is a homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings (food menu + café infrastructure) as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
+Sticky Donuts is a homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings (donuts + drinks) as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
 
 Pictures??
 
 ## Features 
 
-The homepage presents its information on a single scrolling page with four sections: Home, Our Donuts, Café and Contact. 
+The homepage presents its information on a single scrolling page with four sections: Home, Our Donuts, Drinks and Contact. 
 
 Responsiveness??
 
@@ -32,12 +32,12 @@ Delicious vegan donuts in Leipzig picture
 
 Our Donuts picture
 
-- __Café section__
+- __Drinks Section__
 
   - The third section includes xxx
   - This section wants to xxx
 
-Café section picture
+Drinks section picture
 
 - __The Footer: Contact__ 
 
@@ -88,29 +88,26 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://rafaela-wetzel.github.io/Sticky-Donuts/#home 
 
-
 ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-### Content 
+### Tutorials 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the navigation bar were taken from [Font Awesome](https://fontawesome.com/)
+- How to [center content](https://www.computerhope.com/issues/ch001968.htm) within a table
+- 
+- 
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The icon in the navigation bar was taken from [Font Awesome](https://icons8.com/icon/YFWa9iouLqLa/donut)
+- The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
+- The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
 
-[Donut icon](https://icons8.com/icon/YFWa9iouLqLa/donut)  
-[Donut stock images](https://unsplash.com/de/@amr_taha)  
-[Espresso picture](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
+## Resources Used
 
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- HTML & CSS
+- Balsamiq
 
 ## Other General Project Advice
 
