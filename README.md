@@ -105,7 +105,9 @@ In this section you need to reference where you got your content, media and extr
 - The images used for the gallery page were taken from this other open source site
 
 [Donut icon](https://icons8.com/icon/YFWa9iouLqLa/donut)  
-[Donut stock images](https://unsplash.com/de/@amr_taha)
+[Donut stock images](https://unsplash.com/de/@amr_taha)  
+[Espresso picture](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
+
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
