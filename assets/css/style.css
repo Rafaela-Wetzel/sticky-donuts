@@ -92,10 +92,6 @@ h2 {
     border: medium solid #000;
 }
 
-.donut-align-center {
-    text-align: center;
-}
-
 .cappuchino-style {
     width: 100%;
     height: auto;
@@ -183,10 +179,6 @@ textarea {
 
     .donut-margin {
         margin-right: 0;
-    }
-
-    .donut-align-center {
-        text-align: center;
     }
 }
 
