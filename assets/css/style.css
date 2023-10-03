@@ -96,6 +96,13 @@ h2 {
     text-align: center;
 }
 
+.cappuchino-style {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border: medium solid #000;
+}
+
 /* Footer */
 
 /* General styles */
