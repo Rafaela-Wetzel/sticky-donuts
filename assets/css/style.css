@@ -189,6 +189,22 @@ textarea {
     .donut-list {
         padding-right: 30px;
     } 
+
+    .hazelnut-favourite {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .hazelnut-1 {
+        width: 400px;
+        padding-left: 20px;
+    }
+
+    .hazelnut-2 {
+        margin-right: 30px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
