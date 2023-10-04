@@ -180,6 +180,15 @@ textarea {
         max-width: 500px;
     }
 
+    .our-donuts-flex {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .donut-list {
+        padding-right: 30px;
+    } 
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
