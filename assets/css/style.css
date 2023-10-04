@@ -105,7 +105,7 @@ footer h3 {
 }
 
 /* Where to find us */
-#google-maps-style {
+.google-maps-style {
     border: medium solid #000;
     width: 18.7rem;
     height: 12.5rem;
@@ -161,208 +161,212 @@ textarea {
         max-width: 28.1rem;
     }
 
+    .google-maps-style {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    /* Media query: tablets and larger (768px and up) */
+    @media screen and (min-width: 768px) {
+
+        /* Header & nav styles */
+        nav>a {
+            font-size: 1.5rem;
+        }
+
+        /* Main styles */
+        .margin-top {
+            margin-top: 9rem;
+        }
+
+        h2 {
+            scroll-margin-top: 9rem;
+        }
+
+        .three-donuts-size {
+            max-width: 31.2rem;
+        }
+
+        .our-donuts-flex {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .donut-list {
+            padding-right: 1.9rem;
+        }
+
+        .hazelnut-favourite-flex {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 1.2rem;
+            align-items: center;
+        }
+
+        .hazelnut-text {
+            width: 25rem;
+            padding-left: 1.2rem;
+        }
+
+        .hazelnut-picture {
+            margin-right: 1.9rem;
+        }
+
+        .drinks-flex {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .drinks-list {
+            width: 25rem;
+        }
+
+        .tasty-drinks {
+            text-align: left;
+            padding-bottom: 0;
+        }
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+
+        /* Header & nav styles */
+        nav>a {
+            font-size: 1.5rem;
+        }
+
+        /* Main styles */
+        .margin-top {
+            margin-top: 9.4rem;
+        }
+
+        h2 {
+            scroll-margin-top: 9.4rem;
+        }
+
+        .delicious-donuts-flex {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .donuts-welcome {
+            width: 30rem;
+            padding-left: 1.5rem;
+        }
+
+        .three-donuts-size {
+            max-width: 37.5rem;
+        }
+
+        .our-donuts-flex {
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .donut-list {
+            padding-left: 3rem;
+        }
+
+        .hazelnut-favourite-flex {
+            justify-content: center;
+        }
+
+        .hazelnut-text {
+            margin-right: 4rem;
+        }
+
+        .hazelnut-picture {
+            margin-right: 6rem;
+        }
+
+        .drinks-flex {
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .drinks-list {
+            margin-right: 3.4rem;
+        }
+
+        .cappucchino {
+            margin-right: 4rem;
+        }
+
+        /* Footer styles */
+        #footer-flex {
+            flex-flow: row nowrap;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        /* Header & nav styles */
+        nav>a {
+            font-size: 1.5rem;
+        }
+
+        /* Main styles */
+        .margin-top {
+            margin-top: 9.4rem;
+        }
+
+        .scroll-margin-top {
+            scroll-margin-top: 9.4rem;
+        }
+
+        .margin-20 {
+            margin: 0 3rem;
+        }
+
+        .three-donuts-size {
+            max-width: 37.5rem;
+        }
+
+        .donuts-welcome {
+            align-self: center;
+        }
+
+        .four-donuts {
+            margin-right: 3.3rem;
+        }
+
+        .donut-list {
+            margin-left: 2.5rem;
+        }
+
+        .hazelnut-text {
+            margin-right: 3.7rem;
+        }
+
+        .hazelnut-picture {
+            margin-left: 5rem;
+        }
+
+        .tasty-drinks {
+            text-align: center;
+        }
+
+        .drinks-list {
+            margin-right: 8rem;
+        }
+
+        .cappucchino {
+            margin-left: 1rem;
+        }
+
+        /* Footer styles */
+
+        #footer-flex {
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .google-maps-style {
+            width: 18.7rem;
+            height: 12.5rem;
+        }
+    }
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* Header & nav styles */
-    nav>a {
-        font-size: 1.5rem;
-    }
-
-    /* Main styles */
-    .margin-top {
-        margin-top: 9rem;
-    }
-
-    h2 {
-        scroll-margin-top: 9rem;
-    }
-
-    .three-donuts-size {
-        max-width: 31.2rem;
-    }
-
-    .our-donuts-flex {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    .donut-list {
-        padding-right: 1.9rem;
-    }
-
-    .hazelnut-favourite-flex {
-        display: flex;
-        flex-wrap: nowrap;
-        margin-top: 1.2rem;
-        align-items: center;
-    }
-
-    .hazelnut-text {
-        width: 25rem;
-        padding-left: 1.2rem;
-    }
-
-    .hazelnut-picture {
-        margin-right: 1.9rem;
-    }
-
-    .drinks-flex {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    .drinks-list {
-        width: 25rem;
-    }
-
-    .tasty-drinks {
-        text-align: left;
-        padding-bottom: 0;
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-    /* Header & nav styles */
-    nav>a {
-        font-size: 1.5rem;
-    }
-
-    /* Main styles */
-    .margin-top {
-        margin-top: 9.4rem;
-    }
-
-    h2 {
-        scroll-margin-top: 9.4rem;
-    }
-
-    .delicious-donuts-flex {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    .donuts-welcome {
-        width: 30rem;
-        padding-left: 1.5rem;
-    }
-
-    .three-donuts-size {
-        max-width: 37.5rem;
-    }
-
-    .our-donuts-flex {
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
-
-    .donut-list {
-        padding-left: 3rem;
-    }
-
-    .hazelnut-favourite-flex {
-        justify-content: center;
-    }
-
-    .hazelnut-text {
-        margin-right: 4rem;
-    }
-
-    .hazelnut-picture {
-        margin-right: 6rem;
-    }
-
-    .drinks-flex {
-        justify-content: center;
-        margin-top: 1rem;
-    }
-
-    .drinks-list {
-        margin-right: 3.4rem;
-    }
-
-    .cappucchino {
-        margin-right: 4rem;
-    }
-     
-
-    /* Footer styles */
-    #footer-flex {
-        flex-flow: row nowrap;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-    /* Header & nav styles */
-    nav>a {
-        font-size: 1.5rem;
-    }
-
-    /* Main styles */
-    .margin-top {
-        margin-top: 9.4rem;
-    }
-
-    .scroll-margin-top {
-        scroll-margin-top: 9.4rem;
-    }
-
-    .margin-20 {
-        margin: 0 3rem;
-    }
-
-    .three-donuts-size {
-        max-width: 37.5rem;
-    }
-
-    .donuts-welcome {
-        align-self: center;
-    }
-
-    .four-donuts {
-        margin-right: 3.3rem;
-    }
-
-    .donut-list {
-        margin-left: 2.5rem;
-    }
-
-    .hazelnut-text {
-        margin-right: 3.7rem;
-    }
-
-    .hazelnut-picture {
-        margin-left: 5rem;
-    }
-
-    .tasty-drinks {
-        text-align: center;
-    }
-
-    .drinks-list {
-        margin-right: 8rem;
-    }
-
-    .cappucchino {
-        margin-left: 1rem;
-    } 
-
-    /* Footer styles */
-
-    #footer-flex {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    #google-maps-style {
-        width: 18.7rem;
-        height: 12.5rem;
-    }
-}
