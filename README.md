@@ -1,4 +1,5 @@
-# Sticky Donuts
+# Sticky Donuts Café Leipzig
+## Code Institute: HTML/CSS project - by Rafaela Wetzel
 
 Sticky Donuts is a homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
 
@@ -6,28 +7,29 @@ Pictures??
 
 ## Features 
 
-The homepage presents its information on a single scrolling page with four sections: Home, Our Donuts, Drinks and Contact. 
-
-Responsiveness??
+The homepage presents its information on a single scrolling page with four sections: Home, Our Donuts, Drinks and Contact. Furthermore, it is fully responsive to different screen sizes.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Clicking the section title in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. The nagivation bar is part of the sticky header at the top of the homepage. It is visible all the time even when a user scrolls down which makes it possible to always nagivage back to a respective section without having to scroll back all the way to the top.
+  - Clicking the section title in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. The nagivation bar is part of the sticky header at the top of the page. It is visible all the time even when a user scrolls down which makes it possible to always nagivage back to a respective section without having to scroll back all the way to the top. Hovering over the navigation bar elements gives the user a feedback by changing color from white to soft pink so they better see where they currently are clicking on.
 
 Nav Bar Picture
 
 - __Delicious vegan donuts in Leipzig section__
 
-  - The first section includes xxx
-  - This section wants to xxx
+  - The home section includes a concise heading, an introductory / welcome text as well as a picture with three delicious looking donuts that catch the users' eye. The purpose is to give a quick overview:  
+  
+    * *Where is the café located?* Leipzig-Plagwitz
+    * *What can you get there?* Vegan homemade donuts
+    * A reference to the donut and drinks section below for further information 
 
 Delicious vegan donuts in Leipzig picture
 
 - __Our Donuts Section__
 
-  - The second section includes xxx
+  - The second section is called "Our Donuts" and gives insight into the donut variations the café has to offer. 
   - This section wants to xxx
 
 Our Donuts picture
