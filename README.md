@@ -109,6 +109,16 @@ In this section you need to reference where you got your content, media and extr
 - HTML & CSS
 - Balsamiq
 
+## Color Palette  
+
+#cf9eac  
+#594365  
+#000  
+#ebe6e0  
+#b87c4c  
+#594365  
+#795d8c 
+
 ## Other General Project Advice
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
