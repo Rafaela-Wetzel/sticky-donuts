@@ -116,6 +116,17 @@ footer h3 {
     height: 12.5rem;
 }
 
+.styling-clickable > a {
+    text-decoration: none;
+    color: #594365;
+}
+
+.styling-clickable > a:hover {
+    color: #000;
+}
+
+
+
 /* Opening times */
 table {
     text-align: center;

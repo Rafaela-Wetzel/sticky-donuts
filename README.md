@@ -99,7 +99,8 @@ In this section you need to reference where you got your content, media and extr
 - How to [center content](https://www.computerhope.com/issues/ch001968.htm) within a table
 - How to add [letter spacing](https://www.geeksforgeeks.org/how-to-set-letter-spacing-using-css/)
 - How to use [scroll-margin-top](https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php)  
-- 
+- How to make an [e-mail address clickable](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto)
+- How to make a [phone number clickable](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_phoneto)
 
 ### Media
 
