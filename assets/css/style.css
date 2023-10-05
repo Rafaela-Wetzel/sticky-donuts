@@ -6,7 +6,7 @@
 /* General styles */
 
 body {
-    background-color: #C57AFA;
+    background-color: #cf9eac; 
     font-family: 'DM Serif Display', sans-serif;
     margin: 0 0 0.6rem;
     text-align: justify;
@@ -15,7 +15,7 @@ body {
 /* Header & nav styles */
 
 header {
-    background-color: #ab4eed;
+    background-color: /*#C57AFA;*/#795d8c;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -26,6 +26,7 @@ header {
 .main-heading {
     margin: 0;
     font-size: 3rem;
+    font-family: 'Abril Fatface', sans-serif;
 }
 
 nav>a {
@@ -55,7 +56,7 @@ h2 {
 }
 
 .margin-20 {
-    margin: 0 1.2rem;
+    margin: 0 2rem;
 }
 
 .font-size {
@@ -64,7 +65,7 @@ h2 {
 
 .heading-style {
     font-family: 'Abril Fatface', sans-serif;
-    background-color: #ab4eed;
+    background-color: #b87c4c;
 }
 
 .ul-no-bullets {
@@ -283,7 +284,6 @@ textarea {
 
         .drinks-flex {
             justify-content: center;
-            margin-top: 1rem;
         }
 
         .drinks-list {
@@ -341,11 +341,15 @@ textarea {
         }
 
         .hazelnut-picture {
-            margin-left: 5rem;
+            margin-left: 6rem;
         }
 
         .tasty-drinks {
             text-align: center;
+        }
+
+        .drinks-flex {
+            margin-top: 2rem;
         }
 
         .drinks-list {
