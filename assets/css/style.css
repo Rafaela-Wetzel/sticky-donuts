@@ -15,7 +15,7 @@ body {
 /* Header & nav styles */
 
 header {
-    background-color: /*#C57AFA;*/#795d8c;
+    background-color: #795d8c;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -27,16 +27,17 @@ header {
     margin: 0;
     font-size: 3rem;
     font-family: 'Abril Fatface', sans-serif;
+    color:#e1d9d1;
 }
 
 nav>a {
-    color: inherit;
+    color: #e1d9d1;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 a:hover {
-    color: #fff;
+    color: #000;
 }
 
 /* Main styles */
@@ -66,6 +67,9 @@ h2 {
 .heading-style {
     font-family: 'Abril Fatface', sans-serif;
     background-color: #b87c4c;
+    color: /*#cf9eac; #fff;*/#e1d9d1;
+    padding: 0.5rem;
+    letter-spacing: 0.2rem;
 }
 
 .ul-no-bullets {
@@ -132,10 +136,12 @@ textarea {
 }
 
 .button-style {
-    background-color: #ab4eed;
+    background-color: #795d8c;;
     border: thick outset #552676;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 0.9rem;
+    color: #e1d9d1;
+    width: 4rem;
 }
 
 /* Footnote */
