@@ -15,7 +15,7 @@ body {
 /* Header & nav styles */
 
 header {
-    background-color: #795d8c;
+    background-color: /*#795d8c;*/#594365;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -27,11 +27,11 @@ header {
     margin: 0;
     font-size: 3rem;
     font-family: 'Abril Fatface', sans-serif;
-    color:#e1d9d1;
+    color:/*#e1d9d1;*/#EBE6E0;
 }
 
 nav>a {
-    color: #e1d9d1;
+    color: /*#e1d9d1;*/#EBE6E0;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -136,11 +136,11 @@ textarea {
 }
 
 .button-style {
-    background-color: #795d8c;;
-    border: thick outset #552676;
+    background-color: #594365;
+    border: thick outset #795d8c;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 0.9rem;
-    color: #e1d9d1;
+    color: /*#e1d9d1;*/#EBE6E0;
     width: 4rem;
 }
 

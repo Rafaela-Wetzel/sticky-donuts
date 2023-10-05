@@ -95,7 +95,7 @@ In this section you need to reference where you got your content, media and extr
 ### Tutorials 
 
 - How to [center content](https://www.computerhope.com/issues/ch001968.htm) within a table
-- 
+- How to add [letter spacing](https://www.geeksforgeeks.org/how-to-set-letter-spacing-using-css/)
 - 
 
 ### Media
