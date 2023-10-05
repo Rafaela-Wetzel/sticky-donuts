@@ -126,7 +126,7 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 
 ## Color Palette  
 
-
+<img src="assets/color-palette/palette.png" style="width:50%;height:25%;">
 
 ## Other General Project Advice
 
