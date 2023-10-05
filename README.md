@@ -1,5 +1,8 @@
-# Sticky Donuts Café Leipzig
-## Code Institute: HTML/CSS project - by Rafaela Wetzel
+# Code Institute: HTML/CSS project by Rafaela Wetzel
+
+This fictional café homepage has been created to showcase the HTML/CSS skills I have attained over the past two months. It is the first out of five projects.  
+
+## Sticky Donuts Café Leipzig
 
 Sticky Donuts is a homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
 
@@ -13,49 +16,50 @@ The homepage presents its information on a single scrolling page with four secti
 
 - __Navigation Bar__
 
-  - Clicking the section title in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. The nagivation bar is part of the sticky header at the top of the page. It is visible all the time even when a user scrolls down which makes it possible to always nagivage back to a respective section without having to scroll back all the way to the top. Hovering over the navigation bar elements gives the user a feedback by changing color from white to soft pink so they better see where they currently are clicking on.
+  - The header includes both the name of the café as well as a navigation bar. It has the function to give a quick overview of the homepages' content making it easy to navigate back and forth. Clicking the individual section titles in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. The nagivation bar is part of the sticky header at the top of the page. It is visible all the time even when a user scrolls down which makes it possible to nagivage back to a respective section without having to scroll all the way to the top. Hovering over the navigation bar elements gives the user a feedback by changing color from white to soft pink so they better see where their cursor currently is.
 
 Nav Bar Picture
 
 - __Delicious vegan donuts in Leipzig section__
 
-  - The home section includes a concise heading, an introductory / welcome text as well as a picture with three delicious looking donuts that catch the users' eye. The purpose is to give a quick overview:  
+  - The home section includes a concise heading, an introductory text as well as a picture with three delicious looking donuts that catch the users' attention. The purpose is to welcome the user and to give a quick overview:  
   
     * *Where is the café located?* Leipzig-Plagwitz
     * *What can you get there?* Vegan homemade donuts
-    * A reference to the donut and drinks section below for further information 
+    * A reference to the donut and drinks section below for more information 
 
 Delicious vegan donuts in Leipzig picture
 
 - __Our Donuts Section__
 
-  - The second section is called "Our Donuts" and gives insight into the donut variations the café has to offer. 
-  - This section wants to xxx
+  - The second section is called "Our Donuts" and presents the donut variations the café has to offer. To the top left there is a picture of four donuts and to the right of the picture a list of the different donut variations including mention of monthly changing special donuts. The purpose of the picture and list is to show the donut variety and to make the user curious about trying all the different styles. Below this paragraph there is a picture of the current donut of the month to the right side with a text to the left describing its components in detail. This paragraph is meant to highlight and give more detailed information about this special donut which is presented separately in a visual pleasing manner. Towards the end of the section there is additional information targeted at customers who might have certain allergies. This is supposed to convey transparency regarding the ingredients and the message that there potentially is something available for everyone.  
 
 Our Donuts picture
 
 - __Drinks Section__
 
-  - The third section includes xxx
-  - This section wants to xxx
+  - The third section is called "Drinks" and gives an overview of choices. To the left there are three different categories: Autumn specials, tea and coffee. Each of these include a listing of the different types or flavors. To the right there is a picture of a cappucchino. This section is meant to present the variety of drink choices and let the customer know that there is something available to satisfy the thirst after a sweet donut.  
 
 Drinks section picture
 
 - __The Footer: Contact__ 
 
-  - The last section includes xxx
-  - This section wants to xxx
+  - The footer section is called "Contact" and meant to give information about the location and opening times of the café as well as the different ways of getting in touch. At this point the user might be curious about trying some donuts and wants to know how to get there or how to get in touch should there be any questions left unanswered.
+  
+  - To easier get an idea of where the café is located there is a "Where to find us" heading and an embedded Google map. Below the user will find the address as well as a telephone number and e-mail address. The latter two are highlighted in purple and stick out from the black font color of the rest of the text. This shows visually that both elements are clickable - when hovering over them they turn black and clicking on them will open new windows, either to the users email program or to a tool enabling direct phone calls. Those two elements should make it easier / more convenient to get in touch.   
+
+  - The next part of the contact section is about the "Opening Times" presented in a table. It is supposed to show when the café can be visited - the table format is used to structure the information in a visual way to be able to recognize the opening times at first glance.
+
+  - The last part of the footer is the "Contact Form" which is supposed to make it easier to get in touch with the café owners. There is a name and e-mail address field as well as a textarea below. Above the textarea it says "We would love to hear from you!" which should encourage the user to write a message. Below those text areas there is a "Send" button that gives feedback by changing color from white to soft pink when hovered over. The message can only be sent if the user has entered information in all text fields, otherwise there is a pop-up window telling the user "Please fill out this field". Should a user enter a non-email address in the email address field the pop-up window says "Please enter an email address". 
 
 Footer picture
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Another feature idea
+- An integrated menu showing prices
+- Small information windows when hovering over the individual donut names showing a dedicated picture and description of donut features; or:
+- Showing and describing the single donuts in more detail, possibly with allergens, as a fixed part of the homepage
+- A form to make a pre-order for donut boxes to pick up (or maybe even to order from a donut delivery service with an integrated payment system)
 
 ## Testing 
 
@@ -67,6 +71,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+### Bugs & Problems
+
+- For a while the W3C Markup Validation Service showed an error by pointing to a stray ```</p>``` when there apparently was no starting ```<p>```. I was quite confused because there clearly was a starting ```<p>```. It took a while for me to figure out that the issue was a nested list inside the ```<p>``` tag which is not valid code.
 
 ### Validator Testing 
 
@@ -77,22 +84,20 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- No unfixed bugs.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The Sticky Donuts homepage was deployed through GitHub Pages. 
+- From the main project page on GitHub, navigate to *Settings*
+- On the left side click on *Pages*
+- Choose *Deploy from a branch*
+- Set the branch to *main* and */ (root) and click on *Save* 
+- After a few moments the live link shows at the top of the page.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://rafaela-wetzel.github.io/Sticky-Donuts/#home 
+It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 ### Tutorials 
 
@@ -108,32 +113,22 @@ In this section you need to reference where you got your content, media and extr
 - The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
 
+### Other
+
+- Help and feedback from my mentor Oluwafemi Medale
+
 ## Resources Used
 
-- HTML & CSS
 - Balsamiq
-- Lighthouse
-- Firefox Dev Tools
+- HTML & CSS
+- Chrome Lighthouse
+- Firefox & Chrome Dev Tools
 
 ## Color Palette  
 
-#cf9eac  
-#594365  
-#000  
-#ebe6e0  
-#b87c4c  
-#594365  
-#795d8c 
+
 
 ## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
 
 - Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
   - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
