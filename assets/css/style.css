@@ -147,6 +147,10 @@ textarea {
     width: 4rem;
 }
 
+form > .button-style:hover {
+    color: #cf9eac;
+}
+
 /* Footnote */
 #footnote-style {
     text-align: center;
