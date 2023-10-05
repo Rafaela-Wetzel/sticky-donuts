@@ -150,7 +150,9 @@ textarea {
 /* Footnote */
 #footnote-style {
     text-align: center;
-    padding-top: 6.2rem;
+    margin-top: 6.2rem;
+    border-top: 2px solid #594365;
+    padding-top: 0.3rem;
 }
 
 /* Media queries */

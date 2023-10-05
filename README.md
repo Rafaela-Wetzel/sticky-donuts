@@ -1,6 +1,6 @@
 # Sticky Donuts
 
-Sticky Donuts is a homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings (donuts + drinks) as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
+Sticky Donuts is a homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
 
 Pictures??
 
@@ -96,6 +96,7 @@ In this section you need to reference where you got your content, media and extr
 
 - How to [center content](https://www.computerhope.com/issues/ch001968.htm) within a table
 - How to add [letter spacing](https://www.geeksforgeeks.org/how-to-set-letter-spacing-using-css/)
+- How to use [scroll-margin-top](https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php)  
 - 
 
 ### Media
@@ -108,6 +109,8 @@ In this section you need to reference where you got your content, media and extr
 
 - HTML & CSS
 - Balsamiq
+- Lighthouse
+- Firefox Dev Tools
 
 ## Color Palette  
 
