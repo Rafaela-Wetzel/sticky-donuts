@@ -112,6 +112,7 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 - The icon in the navigation bar was taken from [Font Awesome](https://icons8.com/icon/YFWa9iouLqLa/donut)
 - The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
+- Color palette generated with [Coolors](https://coolors.co/)
 
 ### Other
 
@@ -127,6 +128,8 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 ## Color Palette  
 
 <img src="assets/color-palette/palette.png" style="width:50%;height:25%;">
+
+For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. Soft pink (#cf9eac) and dark purple (#594365) are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other.
 
 ## Other General Project Advice
 
