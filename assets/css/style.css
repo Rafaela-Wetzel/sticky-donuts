@@ -130,6 +130,11 @@ footer h3 {
     text-decoration: none;
 }
 
+.rainbow-style {
+    height: 4rem;
+    width: 4rem;
+}
+
 /* Opening times */
 table {
     text-align: center;
