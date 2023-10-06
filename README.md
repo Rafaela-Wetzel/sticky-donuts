@@ -128,10 +128,10 @@ For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individua
 
 # Technologies
 
-- Balsamiq
-- HTML & CSS
-- Lighthouse
-- Dev Tools
+- Balsamiq for creating a first wireframe  
+- HTML & CSS for creating and styling the homepage  
+- Lighthouse for checks on performance, accessibility, best practices and SEO  
+- Dev Tools for analyzing the homepage and checking responsiveness on different screen sizes
 
 # Features 
 
