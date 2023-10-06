@@ -43,7 +43,9 @@ Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig
 
 # Live Demo 
 
-You can see a deployed version of my website [here](https://rafaela-wetzel.github.io/Sticky-Donuts/)
+![A screenshot of the Sticky Donuts homepage on different screen sizes](assets/readme-assets/sticky-fingers-different-sizes.png)
+
+You can see a deployed version of my website here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 
 # UX
 
@@ -80,19 +82,19 @@ The scope of the homepage is to present and advertise the café and its offering
 
 The homepage presents its information on a single scrolling page with four sections: 
 
-1. <b>Delicious Vegan Donuts in Leipzig:</b>   
-Presents the most important information - what does the café have to offer (vegan homemade donuts), where is it located (Leipzig-Plagwitz) and a hint to the donut and drinks section below.
-2. <b>Our Donuts:</b>   
+1. **Delicious Vegan Donuts in Leipzig:**  
+Presents the most important information - What does the café have to offer? Where is it located? Additionally there is a hint to the donut and drinks section below.
+2. **Our Donuts:**
 Shows the variety of different donuts both in text and pictures. Highlights the donut of the month and offers transparency regarding allergens.
-3. <b>Drinks:</b>   
+3. **Drinks:**  
 Mentions the three available main drink categories: specials, tea and coffee. Lists different types and flavors within those categories. 
-4. <b>Contact:</b>   
+4. **Contact:** 
 Is divided into three subsections.
-   - <i><b>Where to find us:</b></i>   
+   - **_Where to find us:_**  
    Shows an embedded Google map, the café address, phone number & email address as well as a flag icon to welcome queer people 
-   - <i><b>Opening times:</b></i>   
+   - **_Opening times:_**  
    Shows the opening times within a table
-   - <i><b>Get in touch:</b></i>   
+   - **_Get in touch:_** 
    Provides a contact form where the user has to enter name, email address and a message  
 
 There is a sticky header at the top that accompanies the user wherever on the homepage they are, making it easy to navigate back and forth. Furthermore, the homepage is fully responsive to different screen sizes.
@@ -107,7 +109,7 @@ The first draft aka wireframe was designed with Balsamiq. The final result howev
 
 I chose to use fewer pictures because the homepage looked too cluttered after the first attempt. I also completely exchanged the café section for a drinks section because the information I was showcasing in the café section did not seem coherent, rather like tiny pieces of information that felt misplaced. Including the drinks section made the homepage feel topped off after all. In the beginning I included both a contact form as well as a newsletter sign up possibility. I removed the latter because it did not seem relevant after all.  
 
-<img src="assets/readme-assets/sticky-donuts-wireframe.png" style="height:50rem; width:30rem;">
+<img src="assets/readme-assets/sticky-donuts-wireframe.png" style="height:40rem; width:25rem;" alt="A picture of a wireframe first draft made with Balsamiq for the Sticky Donuts homepage">
 
 ## Surface
 
@@ -141,7 +143,7 @@ For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individua
 
   - The header includes both the name of the café as well as a navigation bar. It has the function to give a quick overview of the homepages' content making it easy to navigate back and forth. Clicking the individual section titles in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. When a user hovers over the header elements they will get a color change feedback from white to soft pink. The nagivation bar is part of the sticky header at the top of the page. It is visible all the time even when a user scrolls down which makes it possible to nagivage back to a respective section without having to scroll all the way to the top. Hovering over the navigation bar elements gives the user a feedback by changing color from white to soft pink so they better see where their cursor currently is.
 
-Nav Bar Picture
+![A screenshot of the navigation bar on the Sticky Donuts homepage](assets/readme-assets/navigation-bar.png)
 
 ### Delicious Vegan Donuts in Leipzig Section
 
@@ -151,19 +153,20 @@ Nav Bar Picture
     * *What can you get there?* Vegan homemade donuts
     * A reference to the donut and drinks section below for more information 
 
-Delicious vegan donuts in Leipzig picture
+![A screenshot of the Vegan Donuts in Leipzig section on the Sticky Donuts homepage](assets/readme-assets/vegan-donuts-in-leipzig.png)
 
 ### Our Donuts Section
 
   - The second section is called "Our Donuts" and presents the donut variations the café has to offer. To the top left there is a picture of four donuts and to the right of the picture a list of the different donut variations including mention of monthly changing special donuts. The purpose of the picture and list is to show the donut variety and to make the user curious about trying all the different styles. Below this paragraph there is a picture of the current donut of the month to the right side with a text to the left describing its components in detail. This paragraph is meant to highlight and give more detailed information about this special donut which is presented separately in a visual pleasing manner. Towards the end of the section there is additional information targeted at customers who might have certain allergies. This is supposed to convey transparency regarding the ingredients and the message that there potentially is something available for everyone.  
 
-Our Donuts picture
+![A screenshot of the first part of the Our Donuts section on the Sticky Donuts homepage](assets/readme-assets/our-donuts-1.png)
+![A screenshot of the second part of the Our Donuts section on the Sticky Donuts homepage](assets/readme-assets/our-donuts-2.png)
 
 ### Drinks Section
 
   - The third section is called "Drinks" and gives an overview of choices. To the left there are three different categories: Autumn specials, tea and coffee. Each of these include a listing of the different types or flavors. To the right there is a picture of a cappucchino. This section is meant to present the variety of drink choices and let the customer know that there is something available to satisfy the thirst after a sweet donut.  
 
-Drinks section picture
+![A screenshot of the Drinks section on the Sticky Donuts homepage](assets/readme-assets/drinks-section.png)
 
 ### The Footer: Contact
 
@@ -175,7 +178,7 @@ Drinks section picture
 
   - The last part of the footer is the "Get in Touch" section which is supposed to make it easier to get in touch with the café owners. There is a name and e-mail address field as well as a textarea below. Above the textarea it says "We would love to hear from you!" which should encourage the user to write a message. Below those text areas there is a "Send" button that gives feedback by changing color from white to soft pink when hovered over. The message can only be sent if the user has entered information in all text fields, otherwise there is a pop-up window telling the user "Please fill out this field". Should a user enter a non-email address in the email address field the pop-up window says "Please enter an email address". 
 
-Footer picture
+![A screenshot of the contact section of the Sticky Donuts homepage](assets/readme-assets/contact-section.png)
 
 ## Features Left to Implement
 
