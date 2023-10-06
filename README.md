@@ -47,21 +47,55 @@ You can see a deployed version of my website [here](https://rafaela-wetzel.githu
 
 # UX
 
-The purpose of the homepage is to present and advertise the café and its offerings as well as provide necessary information on how to get in touch and find the café to attract customers. The target group is people who...
+## User Stories
+
+A homepage visitor might want to have answers to the following questions:
+
+- What does the café have to offer?
+- What types of donuts and drinks are available?
+- How do the donuts look like?
+- What is the quality of the donuts / how are they made?
+- What are the ingredients of the donuts?
+- Can I eat something there despite being coeliac or having certain allergies? 
+- What are their Social Media channels?
+- Where is the café located?
+- What are the opening times?
+- How can I get in touch with the café owners?
+
+The target group is people who...
 
 - follow a plant-based diet 
 - enjoy sweet culinary delights
 - like to spend time in cozy cafés
 
-I wanted to create a homepage that was simple and beautiful in design, with no distracting or overwhelming elements, accessible and easy to navigate.
-
-### User Stories
-
 ## Strategy
+
+The goal was to create a homepage that was simple and beautiful in design, with no distracting or overwhelming elements; welcoming, accessible and easy to navigate.
 
 ## Scope
 
-## Structure
+The scope of the homepage is to present and advertise the café and its offerings as well as provide necessary information on how to get in touch and find the café to attract customers. 
+
+## Structure 
+
+The homepage presents its information on a single scrolling page with four sections: 
+
+1. <b>Delicious Vegan Donuts in Leipzig:</b>   
+Presents the most important information - what does the café have to offer (vegan homemade donuts), where is it located (Leipzig-Plagwitz) and a hint to the donut and drinks section below.
+2. <b>Our Donuts:</b>   
+Shows the variety of different donuts both in text and pictures. Highlights the donut of the month and offers transparency regarding allergens.
+3. <b>Drinks:</b>   
+Mentions the three available main drink categories: specials, tea and coffee. Lists different types and flavors within those categories. 
+4. <b>Contact:</b>   
+Is divided into three subsections.
+   - <i><b>Where to find us:</b></i>   
+   Shows an embedded Google map, the café address, phone number & email address as well as a flag icon to welcome queer people 
+   - <i><b>Opening times:</b></i>   
+   Shows the opening times within a table
+   - <i><b>Get in touch:</b></i>   
+   Provides a contact form where the user has to enter name, email address and a message  
+
+There is a sticky header at the top that accompanies the user wherever on the homepage they are, making it easy to navigate back and forth. Furthermore, the homepage is fully responsive to different screen sizes.
 
 ## Skeleton
 
@@ -87,19 +121,17 @@ For the Sticky Donuts homepage I have used 6 different gentle colors chosen indi
 
 # Features 
 
-The homepage presents its information on a single scrolling page with four sections: Home, Our Donuts, Drinks and Contact. Furthermore, it is fully responsive to different screen sizes.
-
 ## Existing Features
 
 ### Navigation Bar
 
-  - The header includes both the name of the café as well as a navigation bar. It has the function to give a quick overview of the homepages' content making it easy to navigate back and forth. Clicking the individual section titles in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. The nagivation bar is part of the sticky header at the top of the page. It is visible all the time even when a user scrolls down which makes it possible to nagivage back to a respective section without having to scroll all the way to the top. Hovering over the navigation bar elements gives the user a feedback by changing color from white to soft pink so they better see where their cursor currently is.
+  - The header includes both the name of the café as well as a navigation bar. It has the function to give a quick overview of the homepages' content making it easy to navigate back and forth. Clicking the individual section titles in the navigation bar will lead the user to the respective content section of the homepage so they do not have to scroll all the way. It also features three social media icons (Facebook, Instagram and TikTok) that open in a new tab when clicked. When a user hovers over the header elements they will get a color change feedback from white to soft pink. The nagivation bar is part of the sticky header at the top of the page. It is visible all the time even when a user scrolls down which makes it possible to nagivage back to a respective section without having to scroll all the way to the top. Hovering over the navigation bar elements gives the user a feedback by changing color from white to soft pink so they better see where their cursor currently is.
 
 Nav Bar Picture
 
 ### Delicious Vegan Donuts in Leipzig Section
 
-  - The home section includes a concise heading, an introductory text as well as a picture with three delicious looking donuts that catch the users' attention. The purpose is to welcome the user and to give a quick overview:  
+  - The first section includes a concise heading, an introductory text as well as a picture with three delicious looking donuts that catch the users' attention. The purpose is to welcome the user and to give a quick overview:  
   
     * *Where is the café located?* Leipzig-Plagwitz
     * *What can you get there?* Vegan homemade donuts
@@ -127,7 +159,7 @@ Drinks section picture
 
   - The next part of the contact section is about the "Opening Times" presented in a table. It is supposed to show when the café can be visited - the table format is used to structure the information in a visual way to be able to recognize the opening times at first glance.
 
-  - The last part of the footer is the "Contact Form" which is supposed to make it easier to get in touch with the café owners. There is a name and e-mail address field as well as a textarea below. Above the textarea it says "We would love to hear from you!" which should encourage the user to write a message. Below those text areas there is a "Send" button that gives feedback by changing color from white to soft pink when hovered over. The message can only be sent if the user has entered information in all text fields, otherwise there is a pop-up window telling the user "Please fill out this field". Should a user enter a non-email address in the email address field the pop-up window says "Please enter an email address". 
+  - The last part of the footer is the "Get in Touch" section which is supposed to make it easier to get in touch with the café owners. There is a name and e-mail address field as well as a textarea below. Above the textarea it says "We would love to hear from you!" which should encourage the user to write a message. Below those text areas there is a "Send" button that gives feedback by changing color from white to soft pink when hovered over. The message can only be sent if the user has entered information in all text fields, otherwise there is a pop-up window telling the user "Please fill out this field". Should a user enter a non-email address in the email address field the pop-up window says "Please enter an email address". 
 
 Footer picture
 
