@@ -70,6 +70,8 @@ h2 {
     color: #000;
     padding: 0.5rem;
     letter-spacing: 0.1rem;
+    border-top: medium solid #000;
+    border-bottom: medium solid #000;
 }
 
 .ul-no-bullets {
