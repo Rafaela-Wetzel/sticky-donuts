@@ -46,13 +46,19 @@ Drinks section picture
 
   - The footer section is called "Contact" and meant to give information about the location and opening times of the café as well as the different ways of getting in touch. At this point the user might be curious about trying some donuts and wants to know how to get there or how to get in touch should there be any questions left unanswered.
   
-  - To easier get an idea of where the café is located there is a "Where to find us" heading and an embedded Google map. Below the user will find the address as well as a telephone number and e-mail address. The latter two are highlighted in purple and stick out from the black font color of the rest of the text. This shows visually that both elements are clickable - when hovering over them they turn black and clicking on them will open new windows, either to the users email program or to a tool enabling direct phone calls. Those two elements should make it easier / more convenient to get in touch.   
+  - To easier get an idea of where the café is located there is a "Where to find us" heading and an embedded Google map. Below the user will find the address as well as a telephone number and e-mail address. The latter two are both accompanied by a phone and email icon to the left. They are also highlighted with an underline so they stick out from the rest of the text. This visually shows that both elements are clickable - when hovering over them the underline disappears and clicking on them will open new windows, either to the users email program or to a tool enabling direct phone calls. Those two elements should make it easier / more convenient to get in touch.   
 
   - The next part of the contact section is about the "Opening Times" presented in a table. It is supposed to show when the café can be visited - the table format is used to structure the information in a visual way to be able to recognize the opening times at first glance.
 
   - The last part of the footer is the "Contact Form" which is supposed to make it easier to get in touch with the café owners. There is a name and e-mail address field as well as a textarea below. Above the textarea it says "We would love to hear from you!" which should encourage the user to write a message. Below those text areas there is a "Send" button that gives feedback by changing color from white to soft pink when hovered over. The message can only be sent if the user has entered information in all text fields, otherwise there is a pop-up window telling the user "Please fill out this field". Should a user enter a non-email address in the email address field the pop-up window says "Please enter an email address". 
 
 Footer picture
+
+## Color Palette  
+
+<img src="assets/color-palette/palette.png" style="width:50%;height:25%;">
+
+For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. Soft pink (#cf9eac) and dark purple (#594365) are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other.
 
 ### Features Left to Implement
 
@@ -67,10 +73,6 @@ In this section, you need to convince the assessor that you have conducted enoug
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ### Bugs & Problems
 
 - For a while the W3C Markup Validation Service showed an error by pointing to a stray ```</p>``` when there apparently was no starting ```<p>```. I was quite confused because there clearly was a starting ```<p>```. It took a while for me to figure out that the issue was a nested list inside the ```<p>``` tag which is not valid code.
@@ -81,6 +83,10 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were returned when passing through the official [W3C validator](link)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](link)
+
+### Lighthouse
+
+- Score  
 
 ### Unfixed Bugs
 
@@ -109,7 +115,8 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 
 ### Media
 
-- The icon in the navigation bar was taken from [Font Awesome](https://icons8.com/icon/YFWa9iouLqLa/donut)
+- The icon in the tab bar was taken from [Icons8](https://icons8.com/icon/YFWa9iouLqLa/donut)
+- The icons in the navigation menu and footer were taken from [Font Awesome](https://fontawesome.com/)
 - The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
 - Color palette generated with [Coolors](https://coolors.co/)
@@ -122,14 +129,8 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 
 - Balsamiq
 - HTML & CSS
-- Chrome Lighthouse
-- Firefox & Chrome Dev Tools
-
-## Color Palette  
-
-<img src="assets/color-palette/palette.png" style="width:50%;height:25%;">
-
-For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. Soft pink (#cf9eac) and dark purple (#594365) are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other.
+- Lighthouse
+- Dev Tools
 
 ## Other General Project Advice
 

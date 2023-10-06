@@ -119,12 +119,14 @@ footer h3 {
 }
 
 .styling-clickable > a {
-    text-decoration: none;
-    color: #594365;
+    text-decoration: underline;
+    color: #000;
+    font-family: 'DM Serif Display', sans-serif;
 }
 
 .styling-clickable > a:hover {
     color: #000;
+    text-decoration: none;
 }
 
 /* Opening times */
