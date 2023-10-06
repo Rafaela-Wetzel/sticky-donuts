@@ -4,9 +4,7 @@ The first milestone project is about creating a static website and showcasing th
 
 # Sticky Donuts Café Leipzig
 
-Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig, Germany. The purpose is to present and advertise the café and its offerings as well as provide necessary information on how to find the café to attract customers. The target group is people who follow a plant-based diet and/or enjoy sweet culinary delights. 
-
-Pictures??
+Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig, Germany. Sometimes spending time in other big cities makes me quite envious of the amazing vegan donut places existing elsewhere but not where I live so I decided to create my own (at least virtually) 😄
 
 # Table of Contents
 
@@ -20,6 +18,7 @@ Pictures??
   - [Scope](#scope)
   - [Structure](#structure)
   - [Skeleton](#skeleton)
+    - [Wireframe](#wireframe)
   - [Surface](#surface)
     - [Color Palette](#color-palette)
 - [Technologies](#technologies)
@@ -42,11 +41,19 @@ Pictures??
   - [Media](#media)
   - [Other](#other)
 
-# Live Demo
+# Live Demo 
 
 You can see a deployed version of my website [here](https://rafaela-wetzel.github.io/Sticky-Donuts/)
 
 # UX
+
+The purpose of the homepage is to present and advertise the café and its offerings as well as provide necessary information on how to get in touch and find the café to attract customers. The target group is people who...
+
+- follow a plant-based diet 
+- enjoy sweet culinary delights
+- like to spend time in cozy cafés
+
+I wanted to create a homepage that was simple and beautiful in design, with no distracting or overwhelming elements, accessible and easy to navigate.
 
 ### User Stories
 
@@ -68,7 +75,8 @@ You can see a deployed version of my website [here](https://rafaela-wetzel.githu
     
 <img src="assets/readme-assets/palette.png" style="width:30rem; height:25rem;">     
 <br /><br />     
-For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. Soft pink (#cf9eac) and dark purple (#594365) are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other.
+For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. <span style="background-color:#cf9eac; color:#000;"><b>Soft pink (#cf9eac)</b></span> and <span style="background-color:#594365; color:#fff;"><b>dark purple (#594365)</b></span> are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other, see also ➤ Lighthouse
+<br /><br />   
 
 # Technologies
 
