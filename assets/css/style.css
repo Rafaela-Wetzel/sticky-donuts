@@ -76,6 +76,7 @@ h2 {
 
 .ul-no-bullets {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .three-donuts-size {
@@ -99,7 +100,7 @@ h2 {
 /* Footer */
 
 /* General styles */
-#footer-flex {
+.footer-flex {
     display: flex;
     flex-direction: column;
     margin: 0.6rem;
@@ -166,7 +167,7 @@ form > .button-style:hover {
 }
 
 /* Footnote */
-#footnote-style {
+.footnote-style {
     text-align: center;
     margin-top: 6.2rem;
     border-top: 2px solid #594365;
@@ -326,7 +327,7 @@ form > .button-style:hover {
         }
 
         /* Footer styles */
-        #footer-flex {
+        .footer-flex {
             flex-flow: row nowrap;
         }
     }
@@ -393,7 +394,7 @@ form > .button-style:hover {
 
         /* Footer styles */
 
-        #footer-flex {
+        .footer-flex {
             flex-direction: row;
             justify-content: center;
         }
