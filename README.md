@@ -187,7 +187,8 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 ## Media
 
 - The icon in the tab bar was taken from [Icons8](https://icons8.com/icon/YFWa9iouLqLa/donut)
-- The icons in the navigation menu and footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the navigation menu, phone & email were taken from [Font Awesome](https://fontawesome.com/)
+- The queer flag icon was taken from [Flaticon](https://www.flaticon.com/free-icons/lgbt) 
 - The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
 - Color palette generated with [Coolors](https://coolors.co/)
