@@ -99,18 +99,32 @@ There is a sticky header at the top that accompanies the user wherever on the ho
 
 ## Skeleton
 
+The homepage is designed as a single-scrolling page with a simple structure, presenting the most important information at the top. 
+
 ### Wireframe 
+
+The first draft aka wireframe was designed with Balsamiq. The final result however turned out slightly different.  
+
+I chose to use fewer pictures because the homepage looked too cluttered after the first attempt. I also completely exchanged the café section for a drinks section because the information I was showcasing in the café section did not seem coherent, rather like tiny pieces of information that felt misplaced. Including the drinks section made the homepage feel topped off after all. In the beginning I included both a contact form as well as a newsletter sign up possibility. I removed the latter because it did not seem relevant after all.  
 
 <img src="assets/readme-assets/sticky-donuts-wireframe.png" style="height:50rem; width:30rem;">
 
 ## Surface
 
 ### Color Palette  
-    
-<img src="assets/readme-assets/palette.png" style="width:30rem; height:25rem;">     
-<br /><br />     
-For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. <span style="background-color:#cf9eac; color:#000;"><b>Soft pink (#cf9eac)</b></span> and <span style="background-color:#594365; color:#fff;"><b>dark purple (#594365)</b></span> are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other, see also ➤ Lighthouse
-<br /><br />   
+        
+<div style="display:flex; font-size:large;">
+  <div style="background-color:#ebe6e0; height:7rem; width:7rem; color:#000; text-align:center;"><b>#ebe6e0</b></div>
+  <div style="background-color:#cf9eac; height:7rem; width:7rem; color:#000; text-align:center;"><b>#cf9eac</b></div>
+  <div style="background-color:#594365; height:7rem; width:7rem; text-align:center; color:#000;"><b>#594365</b></div>
+  <div style="background-color:#795dbc; height:7rem; width:7rem; text-align:center; color:#000;"><b>#795dbc</b></div>
+  <div style="background-color:#b87c4c; height:7rem; width:7rem; text-align:center;"><b>#b87c4c</b></div>
+  <div style="background-color:#000; height:7rem; width:7rem; text-align:center;"><b>#000</b></div>
+</div>
+<br />
+For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individually that blend well with each other. <span style="background-color:#cf9eac; color:#000;"><b>Soft pink (#cf9eac)</b></span> and <span style="background-color:#594365; color:#fff;"><b>dark purple (#594365)</b></span> are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other, see also ➤ Lighthouse   
+<br />
+<br />    
 
 # Technologies
 
@@ -223,7 +237,6 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 - The queer flag icon was taken from [Flaticon](https://www.flaticon.com/free-icons/lgbt) 
 - The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
-- Color palette generated with [Coolors](https://coolors.co/)
 
 ## Other
 
