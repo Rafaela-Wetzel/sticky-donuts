@@ -195,14 +195,17 @@ In addition, you should mention in this section how your project looks and works
 
 ## Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](link)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](link)
+- I confirm that no errors were returned when passing through the official [W3C validator](link)
+<br /><br />
+![A screenshot of the HTML W3C Validator result](assets/readme-assets/html-validator.png)  
+
+- I confirm that no errors were returned when passing through the official [(Jigsaw) validator](link)
+<br /><br />
+![A screenshot of the CSS Jigsaw Validator result](assets/readme-assets/css-validator.png)
 
 ## Lighthouse
 
-- Score  
+![A screenshot of the Sticky Donuts homepages' Lighthouse score- Performance 94%, Accessibility 100%, Best Practices 92%, SEO 100%](assets/readme-assets/lighthouse-score.png)
 
 ## Bugs & Problems
 
@@ -241,7 +244,7 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 - The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
 
-## Other
+## Acknowledgements
 
 - Help and feedback from my mentor Oluwafemi Medale
 - README.md structure taken from [Anjalee Kulasinghe](https://github.com/anjalee-kulasinghe/portfolio-project1-cv-website/blob/main/README.md)
