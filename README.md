@@ -31,6 +31,8 @@ Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig
     - [The Footer: Contact](#the-footer-contact)
   - [Features Left to Implement](#features-left-to-implement)
 - [Testing](#testing)
+    - [Testing Homepage Functions](#testing-homepage-functions)
+    - [Testing Homepage Responsiveness](#testing-homepage-responsiveness)
   - [Validator Testing](#validator-testing)
   - [Lighthouse](#lighthouse)
   - [Bugs & Problems](#bugs--problems)
@@ -189,9 +191,44 @@ For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individua
 
 # Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have tested the responsiveness of my homepage with Firefox Dev Tools and checked the following screen sizes: 360px (Galaxy S5 Android 5 on DevTools and my own mobile phone Moto G50), 576px, 768px, 992px and 1200px (DevTools and my own laptop Lenovo ThinkPad X260). I confirm that the actions below work on all screen sizes.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Testing Homepage Functions
+
+- I confirm that the internal links work
+- I confirm that the Social Media icons open in a new tab
+- I confirm that when hovering over the navigation elements the color changes from white to soft pink
+- I confirm that when clicking on the telephone number in the footer it opens a tool to directly call this number
+- I confirm that when clicking on the email address in the footer it opens an email program so the user can start writing a message straight away
+- I confirm that when hovering over the phone number and email address the user will see the feedback that the underline disappears
+- I confirm that if any of the textfields do not contain text there will be a pop up message saying to fill out this field
+- I confirm that if a non-email address is entered in the email field a pop up window will tell the user to enter an email address
+- I confirm that if all info is entered accordingly the data will be sent successfully
+
+## Testing Homepage Responsiveness
+    
+**360px:**
+- All sections, paragraphs and photos are shown individually below each other   
+  
+**576px:** 
+- The responsiveness behaviour is the same as with 360px   
+  
+**768px:** 
+- The *first* section and *footer* elements are shown as above
+- The elements in the *our donuts* and *drinks* section are shown next to each other (paragraph of text next to a picture).  
+- The first picture in the *our donuts* section is aligned to the left, the second one below to the right  
+  
+**992px:**
+- The picture in the *first section* is aligned to the right, the text aligned to the left next to it
+- The elements in the *our donuts* and *drinks* section are shown next to each other as above
+- The three sections *Where to find us*, *Opening Times* and *Get in Touch!* are shown next to each other  
+  
+**1200px:**
+- The responsiveness behaviour is the same as with 992px  
+     
+**General**
+- The font size of the elements in the header as well as the pictures grow bigger the wider the screen
+- The alignment of the elements in the header does not change otherwise
 
 ## Validator Testing
 
