@@ -48,9 +48,9 @@ a:hover {
 }
 
 /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
-/* h2 {
+h2 {
     scroll-margin-top: 8.4rem;
-} */
+} 
 
 .align-center {
     text-align: center;
@@ -280,7 +280,7 @@ form > .button-style:hover {
 
         .delicious-donuts-flex {
             display: flex;
-            flex-direction: row-reverse;
+            justify-content: center;
         }
 
         .donuts-welcome {

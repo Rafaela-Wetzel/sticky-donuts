@@ -127,6 +127,8 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 
 ### Other
 
+- Help and feedback from my mentor Oluwafemi Medale
+
 ## Resources Used
 
 - Balsamiq
