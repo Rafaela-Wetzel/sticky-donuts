@@ -55,10 +55,14 @@ Drinks section picture
 Footer picture
 
 ## Color Palette  
-
-<img src="assets/color-palette/palette.png" style="width:50%;height:25%;">
-
+    
+<img src="assets/readme-assets/palette.png" style="width:30rem; height:25rem;">     
+<br /><br />     
 For the Sticky Donuts homepage I have used 6 different gentle colors chosen individually that blend well with each other. Soft pink (#cf9eac) and dark purple (#594365) are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other.
+
+## Wireframe 
+
+<img src="assets/readme-assets/sticky-donuts-wireframe.png" style="height:50rem; width:30rem;">
 
 ### Features Left to Implement
 
@@ -122,8 +126,6 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 - Color palette generated with [Coolors](https://coolors.co/)
 
 ### Other
-
-- Help and feedback from my mentor Oluwafemi Medale
 
 ## Resources Used
 
