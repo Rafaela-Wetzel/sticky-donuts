@@ -1,6 +1,6 @@
 # Code Institute: HTML/CSS Project by Rafaela Wetzel
 
-The first milestone project is about creating a static website and showcasing the HTML/CSS skills I have attained over the past two months at Code Institute. It is the first out of five projects.  
+The first milestone project is about creating a static front-end website and showcasing the HTML/CSS skills I have attained over the past two months at Code Institute. It is the first out of five projects.  
 
 # Sticky Donuts Café Leipzig
 
@@ -47,7 +47,7 @@ Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig
 
 ![A screenshot of the Sticky Donuts homepage on different screen sizes](assets/readme-assets/sticky-fingers-different-sizes.png)
 
-You can see a deployed version of my website here: https://rafaela-wetzel.github.io/Sticky-Donuts/
+**You can see a deployed version of my website [here](https://rafaela-wetzel.github.io/Sticky-Donuts/)**
 
 # UX
 
@@ -74,7 +74,7 @@ The target group is people who...
 
 ## Strategy
 
-The goal was to create a homepage that was simple and beautiful in design, with no distracting or overwhelming elements; welcoming, accessible and easy to navigate.
+The goal is to create a homepage that is simple and beautiful in design, with no distracting or overwhelming elements; welcoming, accessible and easy to navigate.
 
 ## Scope
 
@@ -87,7 +87,7 @@ The homepage presents its information on a single scrolling page with four secti
 1. **Delicious Vegan Donuts in Leipzig:**  
 Presents the most important information - What does the café have to offer? Where is it located? Additionally there is a hint to the donut and drinks section below.
 2. **Our Donuts:**
-Shows the variety of different donuts both in text and pictures. Highlights the donut of the month and offers transparency regarding allergens.
+Shows the variety of different donuts both in text and pictures. Highlights the donut of the month and offers the possibility of transparency regarding allergens.
 3. **Drinks:**  
 Mentions the three available main drink categories: specials, tea and coffee. Lists different types and flavors within those categories. 
 4. **Contact:** 
@@ -97,9 +97,9 @@ Is divided into three subsections.
    - **_Opening times:_**  
    Shows the opening times within a table
    - **_Get in touch:_** 
-   Provides a contact form where the user has to enter name, email address and a message  
+   Provides a contact form where the user enters a name, email address and message  
 
-There is a sticky header at the top that accompanies the user wherever on the homepage they are, making it easy to navigate back and forth. Furthermore, the homepage is fully responsive to different screen sizes.
+There is a sticky header at the top that accompanies the user wherever on the homepage they are, making it easy to navigate back and forth. Furthermore, the homepage is fully responsive to different screen sizes, see ➤ Testing Homepage Responsiveness
 
 ## Skeleton
 
@@ -109,7 +109,7 @@ The homepage is designed as a single-scrolling page with a simple structure, pre
 
 The first draft aka wireframe was designed with Balsamiq. The final result however turned out slightly different.  
 
-I chose to use fewer pictures because the homepage looked too cluttered after the first attempt. I also completely exchanged the café section for a drinks section because the information I was showcasing in the café section did not seem coherent, rather like tiny pieces of information that felt misplaced. Including the drinks section made the homepage feel topped off after all. In the beginning I included both a contact form as well as a newsletter sign up possibility. I removed the latter because it did not seem relevant after all.  
+I chose to use fewer pictures because the homepage looked too cluttered after the first attempt. I also completely exchanged the café section for a drinks section because the information I was showcasing in the café section did not seem coherent; rather like tiny pieces of information that felt misplaced. Replacing it with the drinks section made the homepage feel topped off after all. In the beginning I included both a contact form as well as a newsletter sign up possibility. I removed the latter because it did not seem relevant after all.  
 
 <img src="assets/readme-assets/sticky-donuts-wireframe.png" style="height:40rem; width:25rem;" alt="A picture of a wireframe first draft made with Balsamiq for the Sticky Donuts homepage">
 
