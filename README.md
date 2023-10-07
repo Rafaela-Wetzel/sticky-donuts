@@ -117,11 +117,9 @@ I chose to use fewer pictures because the homepage looked too cluttered after th
 
 ### Color Palette  
         
-![Sticky Donuts homepage color palette](assets/readme-assets/color-palette.png)
-<br />
-For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individually that blend well with each other. **Soft pink (#cf9eac)** and **dark purple (#594365)** are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other, see also ➤ Lighthouse   
-<br />
-<br />    
+![Sticky Donuts homepage color palette](assets/readme-assets/color-palette.png)   
+<br /><br />
+For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individually that blend well with each other. **Soft pink (#cf9eac)** and **dark purple (#594365)** are the dominating ones that I picked because I think they suit well the playful vibe of a donut café. I have also taken into account to choose colors that have sufficient contrast in relation to each other, see also ➤ Lighthouse     
 
 # Technologies
 
