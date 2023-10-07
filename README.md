@@ -41,7 +41,7 @@ Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig
 - [Credits](#credits)
   - [Tutorials](#tutorials)
   - [Media](#media)
-  - [Other](#other)
+  - [Acknowledgements](#acknowledgements)
 
 # Live Demo 
 
