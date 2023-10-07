@@ -185,23 +185,25 @@ form>.button-style:hover {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    /* Main styles */
-    .margin-top {
-        margin-top: 8.4rem;
-    }
+        /* Main styles */
+        .margin-top {
+            margin-top: 8.4rem;
+        }
 
-    h2 {
-        scroll-margin-top: 8.4rem;
-    }
+        h2 {
+            scroll-margin-top: 8.4rem;
+        }
 
-    .three-donuts-size {
-        max-width: 28.1rem;
-    }
+        .three-donuts-size {
+            max-width: 28.1rem;
+        }
 
-    .google-maps-style {
-        width: 20rem;
-        height: 15rem;
-    }
+        /* Where to find us */
+        .google-maps-style {
+            width: 20rem;
+            height: 15rem;
+        }
+
 
     /* Media query: tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
@@ -403,6 +405,7 @@ form>.button-style:hover {
             justify-content: center;
         }
 
+        /* Where to find us */
         .google-maps-style {
             width: 18.7rem;
             height: 12.5rem;
