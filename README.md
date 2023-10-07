@@ -175,6 +175,8 @@ For the Sticky Donuts homepage I have used 6 unobtrusive colors chosen individua
 
 ## Features Left to Implement
 
+Some ideas what could be added to the homepage are:
+
 - An integrated menu showing prices
 - Small information windows when hovering over the individual donut names showing a dedicated picture and description of donut features; or:
 - Showing and describing the single donuts in more detail, possibly with allergens, as a fixed part of the homepage
@@ -245,11 +247,12 @@ I have tested the responsiveness of my homepage with Firefox Dev Tools and check
 
 # Deployment
 
-The Sticky Donuts homepage was deployed through GitHub Pages. 
+The Sticky Donuts homepage was deployed through GitHub Pages. The steps are as follows:  
+  
 - From the main project page on GitHub, navigate to *Settings*
 - On the left side click on *Pages*
 - Choose *Deploy from a branch*
-- Set the branch to *main* and */ (root) and click on *Save* 
+- Set the branch to *main* and * */ (root)* and click on *Save* 
 - After a few moments the live link shows at the top of the page.
 
 It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
@@ -269,7 +272,7 @@ It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
 - The icon in the tab bar was taken from [Icons8](https://icons8.com/icon/YFWa9iouLqLa/donut)
 - The icons in the navigation menu, phone & email were taken from [Font Awesome](https://fontawesome.com/)
 - The queer flag icon was taken from [Flaticon](https://www.flaticon.com/free-icons/lgbt) 
-- The donut stock picture was taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
+- The donut stock pictures were taken from [Unsplash](https://unsplash.com/de/@amr_taha)  
 - The cappucchino stock picture was taken from [Unsplash](https://unsplash.com/de/fotos/WdJ_5Txrg7k)  
 
 ## Acknowledgements
