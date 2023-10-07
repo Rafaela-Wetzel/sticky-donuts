@@ -6,7 +6,7 @@
 /* General styles */
 
 body {
-    background-color: #cf9eac; 
+    background-color: #cf9eac;
     font-family: 'DM Serif Display', sans-serif;
     margin: 0 0 0.6rem;
     text-align: justify;
@@ -51,7 +51,7 @@ a:hover {
 /* Scroll-margin-top secures that when the home element in the nav bar is clicked the page scrolls to the beginning of the first h2 */
 h2 {
     scroll-margin-top: 8.4rem;
-} 
+}
 
 .align-center {
     text-align: center;
@@ -120,13 +120,13 @@ footer h3 {
     height: 12.5rem;
 }
 
-.styling-clickable > a {
+.styling-clickable>a {
     text-decoration: underline;
     color: #000;
     font-family: 'DM Serif Display', sans-serif;
 }
 
-.styling-clickable > a:hover {
+.styling-clickable>a:hover {
     color: #000;
     text-decoration: none;
 }
@@ -166,7 +166,7 @@ td {
     height: 2.5rem;
 }
 
-form > .button-style:hover {
+form>.button-style:hover {
     color: #cf9eac;
 }
 
@@ -409,4 +409,3 @@ form > .button-style:hover {
         }
     }
 }
-
