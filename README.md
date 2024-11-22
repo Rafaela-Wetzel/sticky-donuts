@@ -47,7 +47,7 @@ Sticky Donuts is a fictional homepage for the first vegan donut café in Leipzig
 
 ![A screenshot of the Sticky Donuts homepage on different screen sizes](assets/readme-assets/sticky-fingers-different-sizes.png)
 
-**You can see a deployed version of my website [here](https://rafaela-wetzel.github.io/Sticky-Donuts/)**
+**You can see a deployed version of my website [here](https://rafaela-wetzel.github.io/sticky-donuts/)**
 
 # UX
 
@@ -255,7 +255,7 @@ The Sticky Donuts homepage was deployed through GitHub Pages. The steps are as f
 - Set the branch to *main* and * */ (root)* and click on *Save* 
 - After a few moments the live link shows at the top of the page.
 
-It can be found here: https://rafaela-wetzel.github.io/Sticky-Donuts/
+It can be found here: https://rafaela-wetzel.github.io/sticky-donuts/
 
 # Credits 
 

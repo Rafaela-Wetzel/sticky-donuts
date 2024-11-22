@@ -10,6 +10,7 @@ body {
     font-family: 'DM Serif Display', sans-serif;
     margin: 0 0 0.6rem;
     text-align: justify;
+    margin-bottom: 0;
 }
 
 /* Header & nav styles */
@@ -173,8 +174,10 @@ form>.button-style:hover {
 /* Footnote */
 .footnote-style {
     text-align: center;
+    background-color: #594365;
+    color: #fff;
     margin-top: 6.2rem;
-    border-top: 2px solid #594365;
+    border-top: medium solid black;
     padding: 0.3rem 1rem;
     display: flex;
     justify-content: space-between;

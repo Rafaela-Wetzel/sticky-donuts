@@ -15,6 +15,9 @@
     <link rel="icon" href="assets/favicons/icons8-donut-64.png" type="image/png">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -229,7 +232,7 @@
                 This project is for purposes of education only.
             </div>
             <div>
-                © Sticky Donuts
+                © Sticky Donuts <span id="copyright"></span>
             </div>
             <div>
                 Design by Rafaela Wetzel
@@ -238,6 +241,10 @@
     </footer>
     <!--Favicon Import Link-->
     <script src="https://kit.fontawesome.com/c28c3d1b4e.js" crossorigin="anonymous"></script>
+    <!-- Get current year for footer information -->
+    <script>
+        $("#copyright").text(new Date().getFullYear());
+    </script>
 </body>
 
 </html>
