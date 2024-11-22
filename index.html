@@ -18,6 +18,8 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Sweet Alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -210,17 +212,18 @@
             </section>
             <section>
                 <h3>Get in Touch!</h3>
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="font-size">
-                    <label for="yourname">Name</label>
+                <form id="donut-contact" class="font-size">
+                    <label for="customer_name">Name</label>
                     <br>
-                    <input type="text" id="yourname" name="yourname" class="input-field-style input-height"
+                    <input type="text" id="customer_name" name="customer_name" class="input-field-style input-height"
                         required><br>
-                    <label for="email">Email address</label>
+                    <label for="customer_email">Email address</label>
                     <br>
-                    <input type="email" id="email" name="email" class="input-field-style input-height" required><br><br>
-                    <label for="feedback">We would love to hear from you!</label>
+                    <input type="email" id="customer_email" name="customer_email" class="input-field-style input-height"
+                        required><br><br>
+                    <label for="customer_message">We would love to hear from you!</label>
                     <br>
-                    <textarea id="feedback" name="feedback" cols="40" rows="10" style="max-width:100%"
+                    <textarea id="customer_message" name="customer_message" cols="40" rows="10" style="max-width:100%"
                         class="input-field-style" required></textarea>
                     <br>
                     <input type="submit" value="Send" class="button-style">
@@ -244,6 +247,16 @@
     <!-- Get current year for footer information -->
     <script>
         $("#copyright").text(new Date().getFullYear());
+    </script>
+    <!-- JavaScript Links -->
+    <script src="assets/js/contact-form.js"></script>
+    <!-- EmailJS Contact Service Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('geejuxaVgM92hqVYN');
+        })();
     </script>
 </body>
 
