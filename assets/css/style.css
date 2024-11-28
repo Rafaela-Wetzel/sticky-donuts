@@ -183,6 +183,12 @@ form>.button-style:hover {
     justify-content: space-between;
 }
 
+/* Contact Confirmation Page*/
+
+.padding-4rem {
+    padding: 2rem 0;
+}
+
 /* Media queries */
 
 /* Media query: large or landscape phones (576px and up) */
